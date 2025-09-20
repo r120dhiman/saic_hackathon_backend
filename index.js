@@ -7,7 +7,8 @@ import dotenv from "dotenv"
 import authRoutes from "./routes/auth.js"
 import reportRoutes from "./routes/reports.js"
 import userRoutes from "./routes/users.js"
-import "./config/passport.js"
+import uploadRoutes from "./routes/uploads.js"
+// import "./config/passport.js"
 
 dotenv.config()
 
@@ -39,13 +40,14 @@ app.use(
 )
 
 // Passport middleware
-app.use(passport.initialize())
-app.use(passport.session())
+// app.use(passport.initialize())
+// app.use(passport.session())
 
 // Routes
 app.use("/auth", authRoutes)
 app.use("/api/reports", reportRoutes)
 app.use("/api/users", userRoutes)
+app.use("/api/uploads",uploadRoutes)
 
 // Health check endpoint
 app.get("/health", (req, res) => {

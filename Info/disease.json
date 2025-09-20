@@ -1,0 +1,840 @@
+{
+  "diseases": [
+    {
+      "diseaseKey": "Type2Diabetes",
+      "label": "Type 2 Diabetes",
+      "criteria": [
+        { "param": "Glucose", "operator": ">=", "value": 126 },
+        { "param": "HbA1c", "operator": ">=", "value": 6.5 }
+      ],
+      "dietKey": "Diabetes",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Type1Diabetes",
+      "label": "Type 1 Diabetes",
+      "criteria": [
+        { "param": "Glucose", "operator": ">=", "value": 126 },
+        { "param": "C-peptide", "operator": "<=", "value": 0.5 }
+      ],
+      "dietKey": "Diabetes",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Hypoglycemia",
+      "label": "Hypoglycemia",
+      "criteria": [
+        { "param": "Glucose", "operator": "<", "value": 70 }
+      ],
+      "dietKey": "Metabolic",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "MetabolicSyndrome",
+      "label": "Metabolic Syndrome",
+      "criteria": [
+        { "param": "Glucose", "operator": ">=", "value": 110 },
+        { "param": "Triglycerides", "operator": ">=", "value": 150 },
+        { "param": "HDL", "operator": "<=", "value": 40 }
+      ],
+      "dietKey": "MetabolicSyndrome",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "InsulinResistance",
+      "label": "Insulin Resistance / Hyperinsulinemia",
+      "criteria": [
+        { "param": "Insulin (fasting)", "operator": ">", "value": 25 }
+      ],
+      "dietKey": "Metabolic",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Hypertension",
+      "label": "Hypertension",
+      "criteria": [
+        { "param": "systolicBP", "operator": ">=", "value": 140 },
+        { "param": "diastolicBP", "operator": ">=", "value": 90 }
+      ],
+      "dietKey": "Hypertension",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "ChronicKidneyDisease",
+      "label": "Chronic Kidney Disease (CKD)",
+      "criteria": [
+        { "param": "Creatinine", "operator": ">=", "value": 1.3 }
+      ],
+      "dietKey": "Kidney",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "AcuteKidneyInjury",
+      "label": "Acute Kidney Injury (AKI)",
+      "criteria": [
+        { "param": "Creatinine", "operator": ">=", "value": 1.5 }
+      ],
+      "dietKey": "Kidney",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "IronDeficiencyAnemia",
+      "label": "Iron Deficiency Anemia",
+      "criteria": [
+        { "param": "Hemoglobin", "operator": "<", "value": 12 },
+        { "param": "Ferritin", "operator": "<", "value": 30 }
+      ],
+      "dietKey": "Anemia",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "MegaloblasticAnemia",
+      "label": "Megaloblastic Anemia (Folate/B12 deficiency)",
+      "criteria": [
+        { "param": "RBC Folate", "operator": "<", "value": 140 },
+        { "param": "MCV", "operator": ">=", "value": 100 }
+      ],
+      "dietKey": "Anemia",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "HemolyticAnemia",
+      "label": "Hemolytic Anemia",
+      "criteria": [
+        { "param": "LDH", "operator": ">", "value": 250 },
+        { "param": "Haptoglobin", "operator": "<", "value": 30 }
+      ],
+      "dietKey": "Hematology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Thalassemia",
+      "label": "Thalassemia Trait/Disease",
+      "criteria": [
+        { "param": "MCV", "operator": "<", "value": 80 },
+        { "param": "Hemoglobin", "operator": "<", "value": 12 }
+      ],
+      "dietKey": "Hematology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Polycythemia",
+      "label": "Polycythemia / Erythrocytosis",
+      "criteria": [
+        { "param": "Hemoglobin", "operator": ">=", "value": 18 }
+      ],
+      "dietKey": "Hematology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "HeartFailure",
+      "label": "Heart Failure",
+      "criteria": [
+        { "param": "BNP", "operator": ">=", "value": 100 },
+        { "param": "NT-proBNP", "operator": ">=", "value": 125 }
+      ],
+      "dietKey": "Cardiac",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "AcuteMyocardialInfarction",
+      "label": "Acute Myocardial Infarction (probable)",
+      "criteria": [
+        { "param": "Myoglobin", "operator": ">", "value": 100 },
+        { "param": "LDH", "operator": ">=", "value": 220 }
+      ],
+      "dietKey": "Cardiac",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "PulmonaryEmbolism",
+      "label": "Pulmonary Embolism / Deep Vein Thrombosis",
+      "criteria": [
+        { "param": "D-dimer", "operator": ">", "value": 500 }
+      ],
+      "dietKey": "Thrombotic",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "DisseminatedIntravascularCoagulation",
+      "label": "Disseminated Intravascular Coagulation (DIC)",
+      "criteria": [
+        { "param": "Fibrin degradation products", "operator": ">", "value": 10 },
+        { "param": "Fibrinogen", "operator": "<", "value": 150 }
+      ],
+      "dietKey": "Hematology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Sepsis",
+      "label": "Sepsis / Severe Bacterial Infection",
+      "criteria": [
+        { "param": "Procalcitonin", "operator": ">=", "value": 0.5 }
+      ],
+      "dietKey": "Infection",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "BacterialInfection",
+      "label": "Bacterial Infection (suggestive)",
+      "criteria": [
+        { "param": "Procalcitonin", "operator": ">", "value": 0.1 }
+      ],
+      "dietKey": "Infection",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "SystemicLupusErythematosus",
+      "label": "Systemic Lupus Erythematosus (SLE)",
+      "criteria": [
+        { "param": "ANA titer", "operator": "=", "value": "positive" },
+        { "param": "Anti-dsDNA", "operator": "=", "value": "positive" },
+        { "param": "Complement C3", "operator": "<", "value": 90 }
+      ],
+      "dietKey": "Autoimmune",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "RheumatoidArthritis",
+      "label": "Rheumatoid Arthritis",
+      "criteria": [
+        { "param": "Rheumatoid factor", "operator": ">=", "value": 60 }
+      ],
+      "dietKey": "Autoimmune",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "ComplementConsumption",
+      "label": "Complement Consumption / Immune Complex Disease",
+      "criteria": [
+        { "param": "Complement C3", "operator": "<", "value": 90 },
+        { "param": "Complement C4", "operator": "<", "value": 16 }
+      ],
+      "dietKey": "Immune",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "WilsonDisease",
+      "label": "Wilson's Disease",
+      "criteria": [
+        { "param": "Ceruloplasmin", "operator": "<", "value": 20 },
+        { "param": "Copper", "operator": ">", "value": 200 }
+      ],
+      "dietKey": "Liver",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "CopperDeficiency",
+      "label": "Copper Deficiency (e.g., Menkes, malabsorption)",
+      "criteria": [
+        { "param": "Copper", "operator": "<", "value": 80 }
+      ],
+      "dietKey": "TraceElements",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "LeadPoisoning",
+      "label": "Lead Poisoning",
+      "criteria": [
+        { "param": "Lead", "operator": ">=", "value": 10 }
+      ],
+      "dietKey": "Toxicology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Rhabdomyolysis",
+      "label": "Rhabdomyolysis",
+      "criteria": [
+        { "param": "Myoglobin", "operator": ">", "value": 300 },
+        { "param": "LDH", "operator": ">", "value": 300 }
+      ],
+      "dietKey": "Muscle",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "LiverDisease_Chronic",
+      "label": "Chronic Liver Disease / Cirrhosis (suggestive)",
+      "criteria": [
+        { "param": "Albumin electrophoresis: γ-globulins", "operator": ">", "value": 1.5 }
+      ],
+      "dietKey": "Liver",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Hypertriglyceridemia",
+      "label": "Hypertriglyceridemia",
+      "criteria": [
+        { "param": "Triglycerides", "operator": ">=", "value": 200 }
+      ],
+      "dietKey": "Lipid",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Dyslipidemia_LDL",
+      "label": "Elevated LDL / Hypercholesterolemia",
+      "criteria": [
+        { "param": "LDL", "operator": ">=", "value": 130 }
+      ],
+      "dietKey": "Lipid",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Hypoalbuminemia",
+      "label": "Hypoalbuminemia (suggestive)",
+      "criteria": [
+        { "param": "Albumin", "operator": "<", "value": 3.5 }
+      ],
+      "dietKey": "Nutrition",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "VitaminB6Deficiency",
+      "label": "Vitamin B6 Deficiency",
+      "criteria": [
+        { "param": "Vitamin B6", "operator": "<", "value": 5 }
+      ],
+      "dietKey": "Nutrition",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "FolateDeficiency",
+      "label": "Folate Deficiency",
+      "criteria": [
+        { "param": "RBC Folate", "operator": "<", "value": 140 }
+      ],
+      "dietKey": "Nutrition",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "ThromboticDisorder",
+      "label": "Hypercoagulable State / Thrombotic Disorder",
+      "criteria": [
+        { "param": "D-dimer", "operator": ">", "value": 500 }
+      ],
+      "dietKey": "Thrombotic",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Inflammation_Nonspecific",
+      "label": "Nonspecific Inflammation / Acute Phase",
+      "criteria": [
+        { "param": "ESR", "operator": ">", "value": 20 }
+      ],
+      "dietKey": "Inflammation",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "PrimaryHyperparathyroidism",
+      "label": "Primary Hyperparathyroidism",
+      "criteria": [
+        { "param": "Parathyroid hormone", "operator": ">=", "value": 65 },
+        { "param": "Total calcium", "operator": ">=", "value": 10.5 }
+      ],
+      "dietKey": "Endocrine",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Hypoparathyroidism",
+      "label": "Hypoparathyroidism",
+      "criteria": [
+        { "param": "Parathyroid hormone", "operator": "<", "value": 10 },
+        { "param": "Total calcium", "operator": "<", "value": 9 }
+      ],
+      "dietKey": "Endocrine",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Hyperkalemia",
+      "label": "Hyperkalemia",
+      "criteria": [
+        { "param": "Potassium", "operator": ">=", "value": 5.0 }
+      ],
+      "dietKey": "Electrolyte",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Hypokalemia",
+      "label": "Hypokalemia",
+      "criteria": [
+        { "param": "Potassium", "operator": "<", "value": 3.5 }
+      ],
+      "dietKey": "Electrolyte",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Hypernatremia",
+      "label": "Hypernatremia",
+      "criteria": [
+        { "param": "Sodium", "operator": ">", "value": 145 }
+      ],
+      "dietKey": "Electrolyte",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Hyponatremia",
+      "label": "Hyponatremia",
+      "criteria": [
+        { "param": "Sodium", "operator": "<", "value": 136 }
+      ],
+      "dietKey": "Electrolyte",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "HepaticEncephalopathy",
+      "label": "Hepatic Encephalopathy",
+      "criteria": [
+        { "param": "Ammonia", "operator": ">", "value": 80 }
+      ],
+      "dietKey": "Liver",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "UreaCycleDisorder",
+      "label": "Urea Cycle Disorder",
+      "criteria": [
+        { "param": "Ammonia", "operator": ">", "value": 80 }
+      ],
+      "dietKey": "Genetic",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "NephroticSyndrome",
+      "label": "Nephrotic Syndrome",
+      "criteria": [
+        { "param": "Ceruloplasmin", "operator": "<", "value": 23 }
+      ],
+      "dietKey": "Kidney",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "SIADH",
+      "label": "Syndrome of Inappropriate ADH Secretion",
+      "criteria": [
+        { "param": "Urine Specific Gravity", "operator": ">", "value": 1.025 }
+      ],
+      "dietKey": "Endocrine",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "DiabetesInsipidus",
+      "label": "Diabetes Insipidus",
+      "criteria": [
+        { "param": "Urine Specific Gravity", "operator": "<", "value": 1.005 }
+      ],
+      "dietKey": "Endocrine",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "RenalTubularAcidosis",
+      "label": "Renal Tubular Acidosis",
+      "criteria": [
+        { "param": "Urine pH", "operator": ">", "value": 6.5 }
+      ],
+      "dietKey": "Kidney",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "UTI_Alkaline",
+      "label": "Urinary Tract Infection (alkaline urine, e.g., Proteus)",
+      "criteria": [
+        { "param": "Urine pH", "operator": ">", "value": 7.5 }
+      ],
+      "dietKey": "Infection",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "SjogrensSyndrome",
+      "label": "Sjögren’s Syndrome",
+      "criteria": [
+        { "param": "ANA titer", "operator": "=", "value": "positive" }
+      ],
+      "dietKey": "Autoimmune",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "MixedConnectiveTissueDisease",
+      "label": "Mixed Connective Tissue Disease",
+      "criteria": [
+        { "param": "ANA titer", "operator": "=", "value": "positive" }
+      ],
+      "dietKey": "Autoimmune",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Scleroderma",
+      "label": "Scleroderma",
+      "criteria": [
+        { "param": "ANA titer", "operator": "=", "value": "positive" }
+      ],
+      "dietKey": "Autoimmune",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Dermatomyositis",
+      "label": "Dermatomyositis / Polymyositis",
+      "criteria": [
+        { "param": "ANA titer", "operator": "=", "value": "positive" }
+      ],
+      "dietKey": "Autoimmune",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Hyperhomocysteinemia",
+      "label": "Hyperhomocysteinemia",
+      "criteria": [
+        { "param": "Homocysteine", "operator": ">", "value": 15 }
+      ],
+      "dietKey": "Metabolic",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "VitaminB12Deficiency",
+      "label": "Vitamin B12 Deficiency",
+      "criteria": [
+        { "param": "Homocysteine", "operator": ">", "value": 15 }
+      ],
+      "dietKey": "Nutrition",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "MTHFRMutation",
+      "label": "MTHFR Mutation Associated Disorder",
+      "criteria": [
+        { "param": "Homocysteine", "operator": ">", "value": 15 }
+      ],
+      "dietKey": "Genetic",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Insulinoma",
+      "label": "Insulinoma",
+      "criteria": [
+        { "param": "Insulin (fasting)", "operator": ">", "value": 25 },
+        { "param": "C-peptide", "operator": ">", "value": 2.72 }
+      ],
+      "dietKey": "Endocrine",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "FactitiousHypoglycemia",
+      "label": "Factitious Hypoglycemia",
+      "criteria": [
+        { "param": "Insulin (fasting)", "operator": ">", "value": 25 },
+        { "param": "C-peptide", "operator": "<", "value": 0.5 }
+      ],
+      "dietKey": "Endocrine",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "SeverePneumonia",
+      "label": "Severe Pneumonia",
+      "criteria": [
+        { "param": "Procalcitonin", "operator": ">", "value": 0.5 }
+      ],
+      "dietKey": "Infection",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Meningitis",
+      "label": "Meningitis",
+      "criteria": [
+        { "param": "Procalcitonin", "operator": ">", "value": 0.5 }
+      ],
+      "dietKey": "Infection",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "SepticShock",
+      "label": "Septic Shock",
+      "criteria": [
+        { "param": "Procalcitonin", "operator": ">", "value": 2.0 }
+      ],
+      "dietKey": "Infection",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "MuscularDystrophy",
+      "label": "Muscular Dystrophy",
+      "criteria": [
+        { "param": "Myoglobin", "operator": ">", "value": 72 }
+      ],
+      "dietKey": "Muscle",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "PolycythemiaVera",
+      "label": "Polycythemia Vera",
+      "criteria": [
+        { "param": "Hemoglobin", "operator": ">", "value": 18 },
+        { "param": "Erythropoietin", "operator": "<", "value": 4 }
+      ],
+      "dietKey": "Hematology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "SecondaryPolycythemia",
+      "label": "Secondary Polycythemia",
+      "criteria": [
+        { "param": "Erythropoietin", "operator": ">", "value": 24 }
+      ],
+      "dietKey": "Hematology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "CVID",
+      "label": "Common Variable Immunodeficiency",
+      "criteria": [
+        { "param": "IgG", "operator": "<", "value": 700 }
+      ],
+      "dietKey": "Immune",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "IgADeficiency",
+      "label": "Selective IgA Deficiency",
+      "criteria": [
+        { "param": "IgA", "operator": "<", "value": 70 }
+      ],
+      "dietKey": "Immune",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "MultipleMyeloma",
+      "label": "Multiple Myeloma / Monoclonal Gammopathy",
+      "criteria": [
+        { "param": "IgG", "operator": ">", "value": 1600 }
+      ],
+      "dietKey": "Hematology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "HereditaryAngioedema",
+      "label": "Hereditary Angioedema",
+      "criteria": [
+        { "param": "Complement C4", "operator": "<", "value": 16 },
+        { "param": "CH50", "operator": "<", "value": 41 }
+      ],
+      "dietKey": "Immune",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "PolymyalgiaRheumatica",
+      "label": "Polymyalgia Rheumatica",
+      "criteria": [
+        { "param": "ESR", "operator": ">", "value": 40 }
+      ],
+      "dietKey": "Rheumatology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "GiantCellArteritis",
+      "label": "Temporal Arteritis (Giant Cell Arteritis)",
+      "criteria": [
+        { "param": "ESR", "operator": ">", "value": 50 }
+      ],
+      "dietKey": "Rheumatology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Lymphoma",
+      "label": "Lymphoma",
+      "criteria": [
+        { "param": "LDH", "operator": ">", "value": 250 }
+      ],
+      "dietKey": "Oncology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "Leukemia",
+      "label": "Leukemia",
+      "criteria": [
+        { "param": "LDH", "operator": ">", "value": 250 }
+      ],
+      "dietKey": "Oncology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "TesticularCancer",
+      "label": "Testicular Cancer",
+      "criteria": [
+        { "param": "LDH", "operator": ">", "value": 250 }
+      ],
+      "dietKey": "Oncology",
+      "age_group": "adult",
+      "gender": "both"
+    },
+        {
+      "diseaseKey": "SelectiveIgMDeficiency",
+      "label": "Selective IgM Deficiency",
+      "criteria": [
+        { "param": "IgM", "operator": "<", "value": 40 }
+      ],
+      "dietKey": "Immune",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "HyperIgMSyndrome",
+      "label": "Hyper-IgM Syndrome",
+      "criteria": [
+        { "param": "IgG", "operator": "<", "value": 700 },
+        { "param": "IgM", "operator": ">=", "value": 1600 }
+      ],
+      "dietKey": "Immune",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+      "diseaseKey": "UreaCycleDisorder_General",
+      "label": "Urea Cycle Disorder (unspecified)",
+      "criteria": [
+        { "param": "Ammonia", "operator": ">", "value": 80 }
+      ],
+      "dietKey": "Genetic",
+      "age_group": "adult",
+      "gender": "both"
+    },
+    {
+  "diseaseKey": "Aceruloplasminemia",
+  "label": "Aceruloplasminemia",
+  "criteria": [
+    { "param": "Ceruloplasmin", "operator": "<", "value": 5 }
+  ],
+  "dietKey": "Genetic",
+  "age_group": "adult",
+  "gender": "both"
+},
+{
+  "diseaseKey": "AcuteInflammation",
+  "label": "Acute Phase / Inflammatory Condition",
+  "criteria": [
+    { "param": "Ceruloplasmin", "operator": ">", "value": 50 }
+  ],
+  "dietKey": "Inflammation",
+  "age_group": "adult",
+  "gender": "both"
+},
+{
+  "diseaseKey": "NephrogenicDiabetesInsipidus",
+  "label": "Nephrogenic Diabetes Insipidus",
+  "criteria": [
+    { "param": "Urine Specific Gravity", "operator": "<", "value": 1.005 }
+  ],
+  "dietKey": "Endocrine",
+  "age_group": "adult",
+  "gender": "both"
+},
+{
+  "diseaseKey": "Dehydration",
+  "label": "Dehydration / Volume Loss",
+  "criteria": [
+    { "param": "Urine Specific Gravity", "operator": ">", "value": 1.030 }
+  ],
+  "dietKey": "Fluid",
+  "age_group": "adult",
+  "gender": "both"
+},
+{
+  "diseaseKey": "HeartFailure_ConcentratedUrine",
+  "label": "Heart Failure (concentrated urine)",
+  "criteria": [
+    { "param": "Urine Specific Gravity", "operator": ">", "value": 1.030 }
+  ],
+  "dietKey": "Cardiac",
+  "age_group": "adult",
+  "gender": "both"
+},
+{
+  "diseaseKey": "HepatorenalSyndrome",
+  "label": "Hepatorenal Syndrome",
+  "criteria": [
+    { "param": "Urine Specific Gravity", "operator": "<", "value": 1.010 },
+    { "param": "Ammonia", "operator": ">", "value": 80 }
+  ],
+  "dietKey": "LiverKidney",
+  "age_group": "adult",
+  "gender": "both"
+},
+{
+  "diseaseKey": "ProteinLosingEnteropathy",
+  "label": "Protein-losing Enteropathy / Malabsorption",
+  "criteria": [
+    { "param": "Ceruloplasmin", "operator": "<", "value": 23 },
+    { "param": "Albumin", "operator": "<", "value": 3.5 }
+  ],
+  "dietKey": "Nutrition",
+  "age_group": "adult",
+  "gender": "both"
+}
+  ]
+}

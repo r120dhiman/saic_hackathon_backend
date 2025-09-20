@@ -1,0 +1,128 @@
+- **age_group**: Use ranges like `18-39`, `40-59`, `≥60` (or `adult` if not age-specific).  
+- **gender**: `males`, `females`, or `both`.  
+- **unit**: Standardize units across entries.  
+
+param,min,max,age_group,gender,unit
+
+Ammonia,10,80,adult,both,mcg/dL
+Ammonia,6,47,adult,both,µmol/L
+Ceruloplasmin,23,50,adult,both,mg/dL
+Ceruloplasmin,230,500,adult,both,mg/L
+Chloride,98,106,adult,both,mEq/L
+Chloride,98,106,adult,both,mmol/L
+Copper,100,200,adult,both,µg/dL
+
+
+Copper,0,100,adult,both,µg/24h (urine)
+Creatinine,0.6,1.2,adult,males,mg/dL
+Creatinine,53,106,adult,males,µmol/L
+Creatinine,0.5,1.1,adult,females,mg/dL
+Creatinine,44,97,adult,females,µmol/L
+Blood urea nitrogen,10,20,adult,both,mg/dL
+Blood urea nitrogen,3.6,7.1,adult,both,mmol/L
+Ferritin,12,300,adult,males,ng/mL
+Ferritin,10,150,adult,females,ng/mL
+
+Glucose,74,106,adult,both,mg/dL
+Inorganic phosphorous,3,4.5,adult,both,mg/dL
+Inorganic phosphorous,0.97,1.45,adult,both,mmol/L
+Ionized calcium,4.5,5.6,adult,both,mg/dL
+Ionized calcium,1.05,1.3,adult,both,mmol/L
+Magnesium,1.3,2.1,adult,both,mEq/L
+Magnesium,0.65,1.05,adult,both,mmol/L
+Phosphate,3,4.5,adult,both,mg/dL
+Phosphate,0.97,1.45,adult,both,mmol/L
+Potassium,3.5,5.0,adult,both,mEq/L
+Potassium,3.5,5.0,adult,both,mmol/L
+Sodium,136,145,adult,both,mEq/L
+Sodium,136,145,adult,both,mmol/L
+Total calcium,9,10.5,adult,both,mg/dL
+Total calcium,2,2.6,adult,both,mmol/L
+Triglycerides,40,160,adult,males,mg/dL
+Triglycerides,0.45,1.81,adult,males,mmol/L
+Triglycerides,35,135,adult,females,mg/dL
+Triglycerides,0.40,1.52,adult,females,mmol/L
+Total cholesterol,,200,adult,both,mg/dL
+Total cholesterol,,5.2,adult,both,mmol/L
+HDL,45,,adult,males,mg/dL
+HDL,0.75,,adult,males,mmol/L
+HDL,55,,adult,females,mg/dL
+HDL,0.91,,adult,females,mmol/L
+LDL,,130,adult,both,mg/dL
+pH,7.35,7.45,adult,both,
+Base excess,-2,2,adult,both,mEq/L
+H+,36,44,adult,both,nmol/L
+pO2,80,100,adult,both,mm Hg
+Oxygen saturation,95,100,adult,both,%
+pCO2,35,45,adult,both,mm Hg
+HCO3,21,28,adult,both,mEq/L
+Hemoglobin,14,18,adult,males,g/dL
+Hemoglobin,8.7,11.2,adult,males,mmol/L
+Hemoglobin,12,16,adult,females,g/dL
+Hemoglobin,7.4,9.9,adult,females,mmol/L
+Hematocrit,42,50,adult,males,%
+Hematocrit,0.42,0.52,adult,males,volume fraction
+Hematocrit,37,47,adult,females,%
+Hematocrit,0.37,0.47,adult,females,volume fraction
+MCV,80,95,adult,both,fL
+MCH,27,31,adult,both,pg
+MCHC,32,36,adult,both,g/dL
+MCHC,32,36,adult,both,%
+RDW,11,14.5,adult,both,%
+Reticulocytes,0.5,2,adult,both,%
+WBC,5000,10000,adult,both,/mm3
+WBC,5,10,adult,both,×10^9/L
+Neutrophils,2500,8000,adult,both,/mm3
+Neutrophils,55,70,adult,both,%
+Lymphocytes,1000,4000,adult,both,/mm3
+Lymphocytes,20,40,adult,both,%
+Monocytes,100,700,adult,both,/mm3
+Monocytes,2,8,adult,both,%
+Eosinophils,50,500,adult,both,/mm3
+Eosinophils,1,4,adult,both,%
+Platelets,150000,400000,adult,both,/mm3
+Platelets,150,400,adult,both,×10^9/L
+Prothrombin time,11,12.5,adult,both,s
+INR,0.8,1.1,adult,both,
+APTT,30,40,adult,both,s
+Fibrinogen,200,400,adult,both,mg/dL
+Fibrinogen,2,4,adult,both,g/L
+Bleeding time,0,9,adult,both,min
+Clotting time,5,8,adult,both,min
+Ammonia,10,80,adult,both,mcg/dL
+Ammonia,6,47,adult,both,µmol/L
+Ceruloplasmin,23,50,adult,both,mg/dL
+Ceruloplasmin,230,500,adult,both,mg/L
+Urine Specific Gravity,1.005,1.030,adult,both,
+Urine pH,5.0,8.0,adult,both,
+ANA titer,, ,adult,both,negative
+Rheumatoid factor,,60,adult,both,IU/mL
+Anti-dsDNA,, ,adult,both,IU/mL
+Complement C3,90,180,adult,both,mg/dL
+Complement C4,16,47,adult,both,mg/dL
+Beta-2 microglobulin,0.7,3.4,adult,both,mg/L
+Homocysteine,5,15,adult,both,µmol/L
+BNP,,100,adult,both,pg/mL
+NT-proBNP,,125,adult,<75yrs,pg/mL
+Parathyroid hormone,10,65,adult,both,pg/mL
+Insulin (fasting),2,25,adult,both,µIU/mL
+C-peptide,0.51,2.72,adult,both,ng/mL
+Procalcitonin,,0.1,adult,both,ng/mL
+Albumin electrophoresis: γ-globulins,0,1.5,adult,both,g/dL
+Lactate (venous),0.5,2.2,adult,both,mmol/L
+Myoglobin,25,72,adult,both,ng/mL
+Erythropoietin,4,24,adult,both,mIU/mL
+Vitamin B6,5,50,adult,both,µg/L
+RBC Folate,140,620,adult,both,ng/mL
+Erythrocyte zinc protoporphyrin,0,40,adult,both,µg/dL
+IgG,700,1600,adult,both,mg/dL
+IgA,70,400,adult,both,mg/dL
+IgM,40,230,adult,both,mg/dL
+CH50,41,90,adult,both,U/mL
+Fetuin-A,300,600,adult,both,µg/mL
+Thrombin time,14,16,adult,both,s
+Fibrin degradation products,,10,adult,both,µg/mL
+D-dimer,,500,adult,both,µg/L
+ESR,,20,adult,both,mm/h
+LDH,100,190,adult,both,U/L
+Lead,,10,adult,both,µg/dL

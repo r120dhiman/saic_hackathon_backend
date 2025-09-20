@@ -1,0 +1,813 @@
+[
+  {
+    "label": "Type 2 Diabetes",
+    "scoring": {
+      "rarity": 2,
+      "treatment_complexity": 6,
+      "treatment_cost": 7,
+      "seriousness": 7,
+      "total_priority_score": 22
+    }
+  },
+  {
+    "label": "Type 1 Diabetes",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 9,
+      "treatment_cost": 9,
+      "seriousness": 10,
+      "total_priority_score": 35
+    }
+  },
+  {
+    "label": "Hypoglycemia",
+    "scoring": {
+      "rarity": 3,
+      "treatment_complexity": 3,
+      "treatment_cost": 2,
+      "seriousness": 7,
+      "total_priority_score": 15
+    }
+  },
+  {
+    "label": "Metabolic Syndrome",
+    "scoring": {
+      "rarity": 2,
+      "treatment_complexity": 5,
+      "treatment_cost": 6,
+      "seriousness": 7,
+      "total_priority_score": 20
+    }
+  },
+  {
+    "label": "Insulin Resistance / Hyperinsulinemia",
+    "scoring": {
+      "rarity": 3,
+      "treatment_complexity": 4,
+      "treatment_cost": 5,
+      "seriousness": 6,
+      "total_priority_score": 18
+    }
+  },
+  {
+    "label": "Hypertension",
+    "scoring": {
+      "rarity": 1,
+      "treatment_complexity": 4,
+      "treatment_cost": 5,
+      "seriousness": 8,
+      "total_priority_score": 18
+    }
+  },
+  {
+    "label": "Chronic Kidney Disease (CKD)",
+    "scoring": {
+      "rarity": 4,
+      "treatment_complexity": 8,
+      "treatment_cost": 9,
+      "seriousness": 9,
+      "total_priority_score": 30
+    }
+  },
+  {
+    "label": "Acute Kidney Injury (AKI)",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 9,
+      "treatment_cost": 10,
+      "seriousness": 10,
+      "total_priority_score": 34
+    }
+  },
+  {
+    "label": "Iron Deficiency Anemia",
+    "scoring": {
+      "rarity": 2,
+      "treatment_complexity": 3,
+      "treatment_cost": 3,
+      "seriousness": 5,
+      "total_priority_score": 13
+    }
+  },
+  {
+    "label": "Megaloblastic Anemia (Folate/B12 deficiency)",
+    "scoring": {
+      "rarity": 4,
+      "treatment_complexity": 4,
+      "treatment_cost": 4,
+      "seriousness": 6,
+      "total_priority_score": 18
+    }
+  },
+  {
+    "label": "Hemolytic Anemia",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 8,
+      "treatment_cost": 8,
+      "seriousness": 8,
+      "total_priority_score": 31
+    }
+  },
+  {
+    "label": "Thalassemia Trait/Disease",
+    "scoring": {
+      "rarity": 6,
+      "treatment_complexity": 7,
+      "treatment_cost": 7,
+      "seriousness": 7,
+      "total_priority_score": 27
+    }
+  },
+  {
+    "label": "Polycythemia / Erythrocytosis",
+    "scoring": {
+      "rarity": 3,
+      "treatment_complexity": 5,
+      "treatment_cost": 6,
+      "seriousness": 6,
+      "total_priority_score": 20
+    }},
+  {
+    "label": "Heart Failure",
+    "scoring": {
+      "rarity": 4,
+      "treatment_complexity": 9,
+      "treatment_cost": 9,
+      "seriousness": 10,
+      "total_priority_score": 32
+    }
+},
+  {
+    "label": "Acute Myocardial Infarction (probable)",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 10,
+      "treatment_cost": 10,
+      "seriousness": 10,
+      "total_priority_score": 35
+    }
+  },
+  {
+    "label": "Pulmonary Embolism / Deep Vein Thrombosis",
+    "scoring": {
+      "rarity": 6,
+      "treatment_complexity": 8,
+      "treatment_cost": 8,
+      "seriousness": 9,
+      "total_priority_score": 31
+    }
+  },
+  {
+    "label": "Disseminated Intravascular Coagulation (DIC)",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 9,
+      "treatment_cost": 9,
+      "seriousness": 10,
+      "total_priority_score": 35
+    }
+  },
+  {
+    "label": "Sepsis / Severe Bacterial Infection",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 10,
+      "treatment_cost": 10,
+      "seriousness": 10,
+      "total_priority_score": 35
+    }
+  },
+  {
+    "label": "Bacterial Infection (suggestive)",
+    "scoring": {
+      "rarity": 2,
+      "treatment_complexity": 6,
+      "treatment_cost": 5,
+      "seriousness": 7,
+      "total_priority_score": 20
+    }
+  },
+  {
+    "label": "Systemic Lupus Erythematosus (SLE)",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 9,
+      "treatment_cost": 9,
+      "seriousness": 8,
+      "total_priority_score": 33
+    }
+  },
+  {
+    "label": "Rheumatoid Arthritis",
+    "scoring": {
+      "rarity": 4,
+      "treatment_complexity": 7,
+      "treatment_cost": 7,
+      "seriousness": 7,
+      "total_priority_score": 25
+    }
+  },
+  {
+    "label": "Complement Consumption / Immune Complex Disease",
+    "scoring": {
+      "rarity": 6,
+      "treatment_complexity": 8,
+      "treatment_cost": 8,
+      "seriousness": 8,
+      "total_priority_score": 30
+    }
+  },
+  {
+    "label": "Wilson's Disease",
+    "scoring": {
+      "rarity": 9,
+      "treatment_complexity": 8,
+      "treatment_cost": 8,
+      "seriousness": 8,
+      "total_priority_score": 33
+    }
+  },
+  {
+    "label": "Copper Deficiency (e.g., Menkes, malabsorption)",
+    "scoring": {
+      "rarity": 8,
+      "treatment_complexity": 7,
+      "treatment_cost": 6,
+      "seriousness": 7,
+      "total_priority_score": 28
+    }
+  },
+  {
+    "label": "Lead Poisoning",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 6,
+      "treatment_cost": 6,
+      "seriousness": 8,
+      "total_priority_score": 27
+    }
+  },
+  {
+    "label": "Rhabdomyolysis",
+    "scoring": {
+      "rarity": 6,
+      "treatment_complexity": 8,
+      "treatment_cost": 7,
+      "seriousness": 9,
+      "total_priority_score": 30
+    }
+  },
+  {
+    "label": "Chronic Liver Disease / Cirrhosis (suggestive)",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 8,
+      "treatment_cost": 8,
+      "seriousness": 9,
+      "total_priority_score": 30
+    }
+  },
+  {
+    "label": "Hypertriglyceridemia",
+    "scoring": {
+      "rarity": 3,
+      "treatment_complexity": 4,
+      "treatment_cost": 4,
+      "seriousness": 5,
+      "total_priority_score": 16
+    }
+  },
+  {
+    "label": "Elevated LDL / Hypercholesterolemia",
+    "scoring": {
+      "rarity": 2,
+      "treatment_complexity": 5,
+      "treatment_cost": 5,
+      "seriousness": 7,
+      "total_priority_score": 19
+    }
+  },
+  {
+    "label": "Hypoalbuminemia (suggestive)",
+    "scoring": {
+      "rarity": 4,
+      "treatment_complexity": 6,
+      "treatment_cost": 5,
+      "seriousness": 6,
+      "total_priority_score": 21
+    }
+  },
+  {
+    "label": "Vitamin B6 Deficiency",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 3,
+      "treatment_cost": 2,
+      "seriousness": 5,
+      "total_priority_score": 15
+    }
+  },
+  {
+    "label": "Folate Deficiency",
+    "scoring": {
+      "rarity": 4,
+      "treatment_complexity": 3,
+      "treatment_cost": 2,
+      "seriousness": 5,
+      "total_priority_score": 14
+    }
+  },
+  {
+    "label": "Hypercoagulable State / Thrombotic Disorder",
+    "scoring": {
+      "rarity": 6,
+      "treatment_complexity": 7,
+      "treatment_cost": 6,
+      "seriousness": 8,
+      "total_priority_score": 27
+    }
+  },
+  {
+    "label": "Nonspecific Inflammation / Acute Phase",
+    "scoring": {
+      "rarity": 2,
+      "treatment_complexity": 2,
+      "treatment_cost": 1,
+      "seriousness": 3,
+      "total_priority_score": 8
+    }
+  },
+  {
+    "label": "Primary Hyperparathyroidism",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 6,
+      "treatment_cost": 6,
+      "seriousness": 7,
+      "total_priority_score": 24
+    }
+  },
+  {
+    "label": "Hypoparathyroidism",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 7,
+      "treatment_cost": 7,
+      "seriousness": 8,
+      "total_priority_score": 29
+    }
+  },
+  {
+    "label": "Hyperkalemia",
+    "scoring": {
+      "rarity": 3,
+      "treatment_complexity": 5,
+      "treatment_cost": 3,
+      "seriousness": 7,
+      "total_priority_score": 18
+    }
+  },
+  {
+    "label": "Hypokalemia",
+    "scoring": {
+      "rarity": 3,
+      "treatment_complexity": 5,
+      "treatment_cost": 3,
+      "seriousness": 6,
+      "total_priority_score": 17
+    }
+  },
+  {
+    "label": "Hypernatremia",
+    "scoring": {
+      "rarity": 3,
+      "treatment_complexity": 6,
+      "treatment_cost": 3,
+      "seriousness": 8,
+      "total_priority_score": 20
+    }
+  },
+  {
+    "label": "Hyponatremia",
+    "scoring": {
+      "rarity": 4,
+      "treatment_complexity": 7,
+      "treatment_cost": 4,
+      "seriousness": 8,
+      "total_priority_score": 23
+    }
+  },
+  {
+    "label": "Hepatic Encephalopathy",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 9,
+      "treatment_cost": 8,
+      "seriousness": 10,
+      "total_priority_score": 32
+    }
+  },
+  {
+    "label": "Urea Cycle Disorder",
+    "scoring": {
+      "rarity": 9,
+      "treatment_complexity": 9,
+      "treatment_cost": 7,
+      "seriousness": 9,
+      "total_priority_score": 34
+    }
+  },
+  {
+    "label": "Nephrotic Syndrome",
+    "scoring": {
+      "rarity": 4,
+      "treatment_complexity": 7,
+      "treatment_cost": 7,
+      "seriousness": 8,
+      "total_priority_score": 26
+    }
+  },
+  {
+    "label": "Syndrome of Inappropriate ADH Secretion",
+    "scoring": {
+      "rarity": 6,
+      "treatment_complexity": 6,
+      "treatment_cost": 5,
+      "seriousness": 7,
+      "total_priority_score": 24
+    }
+  },
+  {
+    "label": "Diabetes Insipidus",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 7,
+      "treatment_cost": 6,
+      "seriousness": 7,
+      "total_priority_score": 27
+    }
+  },
+  {
+    "label": "Renal Tubular Acidosis",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 7,
+      "treatment_cost": 6,
+      "seriousness": 7,
+      "total_priority_score": 25
+    }
+  },
+  {
+    "label": "Urinary Tract Infection (alkaline urine, e.g., Proteus)",
+    "scoring": {
+      "rarity": 2,
+      "treatment_complexity": 3,
+      "treatment_cost": 2,
+      "seriousness": 5,
+      "total_priority_score": 12
+    }
+  },
+  {
+    "label": "Sjögren’s Syndrome",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 7,
+      "treatment_cost": 7,
+      "seriousness": 6,
+      "total_priority_score": 25
+    }
+  },
+  {
+    "label": "Mixed Connective Tissue Disease",
+    "scoring": {
+      "rarity": 6,
+      "treatment_complexity": 7,
+      "treatment_cost": 7,
+      "seriousness": 7,
+      "total_priority_score": 27
+    }
+  },
+  {
+    "label": "Scleroderma",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 8,
+      "treatment_cost": 8,
+      "seriousness": 8,
+      "total_priority_score": 31
+    }
+  },
+  {
+    "label": "Dermatomyositis / Polymyositis",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 8,
+      "treatment_cost": 8,
+      "seriousness": 8,
+      "total_priority_score": 31
+    }
+  },
+  {
+    "label": "Hyperhomocysteinemia",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 5,
+      "treatment_cost": 4,
+      "seriousness": 6,
+      "total_priority_score": 20
+    }
+  },
+  {
+    "label": "Vitamin B12 Deficiency",
+    "scoring": {
+      "rarity": 3,
+      "treatment_complexity": 3,
+      "treatment_cost": 3,
+      "seriousness": 5,
+      "total_priority_score": 14
+    }
+  },
+  {
+    "label": "MTHFR Mutation Associated Disorder",
+    "scoring": {
+      "rarity": 6,
+      "treatment_complexity": 6,
+      "treatment_cost": 5,
+      "seriousness": 6,
+      "total_priority_score": 23
+    }
+  },
+  {
+    "label": "Insulinoma",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 7,
+      "treatment_cost": 7,
+      "seriousness": 7,
+      "total_priority_score": 28
+    }
+  },
+  {
+    "label": "Factitious Hypoglycemia",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 6,
+      "treatment_cost": 5,
+      "seriousness": 6,
+      "total_priority_score": 22
+    }
+  },
+  {
+    "label": "Severe Pneumonia",
+    "scoring": {
+      "rarity": 3,
+      "treatment_complexity": 8,
+      "treatment_cost": 7,
+      "seriousness": 9,
+      "total_priority_score": 27
+    }
+  },
+  {
+    "label": "Meningitis",
+    "scoring": {
+      "rarity": 4,
+      "treatment_complexity": 8,
+      "treatment_cost": 8,
+      "seriousness": 10,
+      "total_priority_score": 30
+    }
+  },
+  {
+    "label": "Septic Shock",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 10,
+      "treatment_cost": 10,
+      "seriousness": 10,
+      "total_priority_score": 35
+    }
+  },
+  {
+    "label": "Muscular Dystrophy",
+    "scoring": {
+      "rarity": 8,
+      "treatment_complexity": 9,
+      "treatment_cost": 9,
+      "seriousness": 7,
+      "total_priority_score": 33
+    }
+  },
+  {
+    "label": "Polycythemia Vera",
+    "scoring": {
+      "rarity": 6,
+      "treatment_complexity": 7,
+      "treatment_cost": 7,
+      "seriousness": 7,
+      "total_priority_score": 27
+    }
+  },
+  {
+    "label": "Secondary Polycythemia",
+    "scoring": {
+      "rarity": 6,
+      "treatment_complexity": 5,
+      "treatment_cost": 5,
+      "seriousness": 6,
+      "total_priority_score": 22
+    }
+  },
+  {
+    "label": "Common Variable Immunodeficiency",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 8,
+      "treatment_cost": 7,
+      "seriousness": 7,
+      "total_priority_score": 29
+    }
+  },
+  {
+    "label": "Selective IgA Deficiency",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 4,
+      "treatment_cost": 3,
+      "seriousness": 5,
+      "total_priority_score": 17
+    }
+  },
+  {
+    "label": "Multiple Myeloma / Monoclonal Gammopathy",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 9,
+      "treatment_cost": 9,
+      "seriousness": 9,
+      "total_priority_score": 34
+    }
+  },
+  {
+    "label": "Hereditary Angioedema",
+    "scoring": {
+      "rarity": 8,
+      "treatment_complexity": 7,
+      "treatment_cost": 6,
+      "seriousness": 8,
+      "total_priority_score": 29
+    }
+  },
+  {
+    "label": "Polymyalgia Rheumatica",
+    "scoring": {
+      "rarity": 4,
+      "treatment_complexity": 5,
+      "treatment_cost": 5,
+      "seriousness": 6,
+      "total_priority_score": 20
+    }
+  },
+  {
+    "label": "Temporal Arteritis (Giant Cell Arteritis)",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 7,
+      "treatment_cost": 6,
+      "seriousness": 8,
+      "total_priority_score": 26
+    }
+  },
+  {
+    "label": "Lymphoma",
+    "scoring": {
+      "rarity": 6,
+      "treatment_complexity": 8,
+      "treatment_cost": 8,
+      "seriousness": 9,
+      "total_priority_score": 31
+    }
+  },
+  {
+    "label": "Leukemia",
+    "scoring": {
+      "rarity": 6,
+      "treatment_complexity": 9,
+      "treatment_cost": 9,
+      "seriousness": 10,
+      "total_priority_score": 34
+    }
+  },
+  {
+    "label": "Testicular Cancer",
+    "scoring": {
+      "rarity": 4,
+      "treatment_complexity": 8,
+      "treatment_cost": 7,
+      "seriousness": 9,
+      "total_priority_score": 28
+    }
+  },
+  {
+    "label": "Selective IgM Deficiency",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 5,
+      "treatment_cost": 5,
+      "seriousness": 6,
+      "total_priority_score": 23
+    }
+  },
+  {
+    "label": "Hyper-IgM Syndrome",
+    "scoring": {
+      "rarity": 8,
+      "treatment_complexity": 7,
+      "treatment_cost": 7,
+      "seriousness": 7,
+      "total_priority_score": 29
+    }
+  },
+  {
+    "label": "Urea Cycle Disorder (unspecified)",
+    "scoring": {
+      "rarity": 9,
+      "treatment_complexity": 9,
+      "treatment_cost": 8,
+      "seriousness": 9,
+      "total_priority_score": 35
+    }
+  },
+  {
+    "label": "Aceruloplasminemia",
+    "scoring": {
+      "rarity": 8,
+      "treatment_complexity": 8,
+      "treatment_cost": 7,
+      "seriousness": 8,
+      "total_priority_score": 31
+    }
+  },
+  {
+    "label": "Acute Phase / Inflammatory Condition",
+    "scoring": {
+      "rarity": 3,
+      "treatment_complexity": 4,
+      "treatment_cost": 2,
+      "seriousness": 5,
+      "total_priority_score": 14
+    }
+  },
+  {
+    "label": "Nephrogenic Diabetes Insipidus",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 8,
+      "treatment_cost": 7,
+      "seriousness": 7,
+      "total_priority_score": 29
+    }
+  },
+  {
+    "label": "Dehydration / Volume Loss",
+    "scoring": {
+      "rarity": 2,
+      "treatment_complexity": 3,
+      "treatment_cost": 1,
+      "seriousness": 6,
+      "total_priority_score": 12
+    }
+  },
+  {
+    "label": "Heart Failure (concentrated urine)",
+    "scoring": {
+      "rarity": 4,
+      "treatment_complexity": 8,
+      "treatment_cost": 7,
+      "seriousness": 9,
+      "total_priority_score": 28
+    }
+  },
+  {
+    "label": "Hepatorenal Syndrome",
+    "scoring": {
+      "rarity": 7,
+      "treatment_complexity": 9,
+      "treatment_cost": 9,
+      "seriousness": 10,
+      "total_priority_score": 35
+    }
+  },
+  {
+    "label": "Protein-losing Enteropathy / Malabsorption",
+    "scoring": {
+      "rarity": 5,
+      "treatment_complexity": 7,
+      "treatment_cost": 6,
+      "seriousness": 7,
+      "total_priority_score": 25
+    }
+  }
+]
+
+
