@@ -1,4 +1,4 @@
-import { diseasePredictor } from "../Info/app.js";
+import { diseasePredictor } from "../data/app.js";
 import multer from "multer";
 import csv from "csv-parser";
 import fs from "fs";

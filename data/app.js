@@ -1,7 +1,7 @@
 import fs from 'fs';
 import csv from 'csv-parser';
-const diseasesJson = JSON.parse(fs.readFileSync('./Info/disease.json', 'utf8'));
-const dietJson = JSON.parse(fs.readFileSync('./Info/diest.json', 'utf8'));
+const diseasesJson = JSON.parse(fs.readFileSync('./data/disease.json', 'utf8'));
+const dietJson = JSON.parse(fs.readFileSync('./data/diest.json', 'utf8'));
 
 let parameterJson = null;
 
@@ -98,7 +98,7 @@ function getAllPossibleDiseases(labData, ageGroup, gender, diseasesJson) {
 
 //score calculation function
 function calculator(possibleDiseases){
-    const data = JSON.parse(fs.readFileSync("./Info/score.json", "utf8"));
+    const data = JSON.parse(fs.readFileSync("./data/score.json", "utf8"));
     let diseaseScore = [];
     possibleDiseases.forEach(disease => {
         const scoreInfo = data.find(item => item.label === disease.label);
