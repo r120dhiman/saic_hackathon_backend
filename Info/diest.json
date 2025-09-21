@@ -1,0 +1,1321 @@
+[
+  {
+    "label": "Type 2 Diabetes",
+    "diet": [
+      "Follow a balanced diet rich in vegetables, whole grains, lean proteins, and healthy fats.",
+      "Limit sugar and refined carbohydrate intake.",
+      "Monitor portion sizes and carbohydrate servings."
+    ],
+    "lifestyle": [
+      "Engage in regular physical activity (30-45 minutes most days).",
+      "Maintain a healthy weight.",
+      "Manage stress and get adequate sleep."
+    ],
+    "preventive": [
+      "Monitor blood glucose regularly.",
+      "Attend regular check-ups and eye exams.",
+      "Stay updated on recommended vaccinations."
+    ]
+  },
+  {
+    "label": "Type 1 Diabetes",
+    "diet": [
+      "Carbohydrate counting and meal planning aligned with insulin dosage.",
+      "Include high-fiber foods and avoid skipping meals.",
+      "Limit sugary drinks and high-fat processed foods."
+    ],
+    "lifestyle": [
+      "Exercise routinely and adjust insulin as needed.",
+      "Use continuous glucose monitoring if available.",
+      "Educate on recognizing hypo/hyperglycemia symptoms."
+    ],
+    "preventive": [
+      "Regular monitoring of blood glucose and HbA1c.",
+      "Foot care and annual screenings for complications.",
+      "Stay current with vaccinations (e.g., flu, pneumonia)."
+    ]
+  },
+  {
+    "label": "Hypoglycemia",
+    "diet": [
+      "Eat frequent, small meals with balanced carbohydrates.",
+      "Avoid alcohol on an empty stomach.",
+      "Include snacks to prevent low blood sugar during or after exercise."
+    ],
+    "lifestyle": [
+      "Monitor blood glucose before, during, and after activity.",
+      "Educate about symptoms of low blood sugar.",
+      "Carry glucose tablets or snacks at all times."
+    ],
+    "preventive": [
+      "Review medication doses with healthcare provider.",
+      "Avoid prolonged fasting.",
+      "Wear medical alert identification."
+    ]
+  },
+  {
+    "label": "Metabolic Syndrome",
+    "diet": [
+      "Adopt a Mediterranean or DASH diet.",
+      "Increase fiber intake from fruits, vegetables, and whole grains.",
+      "Reduce saturated fat, trans fats, and added sugars."
+    ],
+    "lifestyle": [
+      "Engage in aerobic and resistance exercise regularly.",
+      "Achieve and maintain healthy weight.",
+      "Reduce sedentary time; quit smoking if applicable."
+    ],
+    "preventive": [
+      "Regular screening for blood pressure, cholesterol, and glucose.",
+      "Early intervention for abnormal lab results.",
+      "Stress management and sleep hygiene."
+    ]
+  },
+  {
+    "label": "Insulin Resistance / Hyperinsulinemia",
+    "diet": [
+      "Focus on low-glycemic-index foods and whole grains.",
+      "Control calorie and carbohydrate intake.",
+      "Avoid sugary beverages and high-fat snacks."
+    ],
+    "lifestyle": [
+      "Exercise most days (aerobic plus resistance).",
+      "Aim for gradual, sustained weight loss if overweight.",
+      "Manage stress and improve sleep patterns."
+    ],
+    "preventive": [
+      "Periodic screening for diabetes and cardiovascular risk.",
+      "Monitor waist circumference and BP.",
+      "Educate about risk factors and early symptoms."
+    ]
+  },
+  {
+    "label": "Hypertension",
+    "diet": [
+      "Reduce salt intake to less than 2,300 mg per day.",
+      "Eat a diet rich in fruits, vegetables, whole grains, and low-fat dairy.",
+      "Limit alcohol consumption."
+    ],
+    "lifestyle": [
+      "Engage in regular aerobic exercise (e.g., walking 30 minutes most days).",
+      "Maintain a healthy weight.",
+      "Avoid tobacco and manage stress."
+    ],
+    "preventive": [
+      "Monitor blood pressure regularly.",
+      "Take prescribed antihypertensive medications consistently.",
+      "Schedule regular doctor visits for cardiovascular risk assessment."
+    ]
+  },
+  {
+    "label": "Chronic Kidney Disease (CKD)",
+    "diet": [
+      "Limit protein intake as advised by a healthcare provider.",
+      "Reduce sodium and potassium in the diet if indicated.",
+      "Ensure adequate hydration."
+    ],
+    "lifestyle": [
+      "Maintain blood pressure and blood sugar control.",
+      "Avoid NSAIDs and nephrotoxic substances.",
+      "Engage in moderate physical activity."
+    ],
+    "preventive": [
+      "Regular kidney function monitoring with labs and urine tests.",
+      "Manage associated conditions like hypertension and diabetes.",
+      "Avoid dehydration and infections."
+    ]
+  },
+  {
+    "label": "Acute Kidney Injury (AKI)",
+    "diet": [
+      "Follow fluid restrictions if advised.",
+      "Limit intake of potassium and phosphorus foods.",
+      "Consume adequate calories to prevent malnutrition."
+    ],
+    "lifestyle": [
+      "Avoid nephrotoxic medications and substances.",
+      "Monitor daily weight and urine output.",
+      "Seek prompt medical care for infections or symptoms."
+    ],
+    "preventive": [
+      "Early detection and treatment of underlying causes.",
+      "Repeat kidney function monitoring until recovery.",
+      "Avoid dehydration and hypotension."
+    ]
+  },
+  {
+    "label": "Iron Deficiency Anemia",
+    "diet": [
+      "Increase intake of iron-rich foods like lean meats, beans, and spinach.",
+      "Consume vitamin C-rich foods to enhance iron absorption.",
+      "Avoid tea or coffee with meals."
+    ],
+    "lifestyle": [
+      "Manage heavy menstrual bleeding or other blood loss sources.",
+      "Maintain overall good nutrition.",
+      "Monitor symptoms like fatigue and pallor."
+    ],
+    "preventive": [
+      "Regular screening in at-risk populations.",
+      "Iron supplementation as prescribed.",
+      "Treat underlying causes of blood loss."
+    ]
+  },
+  {
+    "label": "Megaloblastic Anemia (Folate/B12 deficiency)",
+    "diet": [
+      "Increase dietary folate from leafy greens, fortified cereals.",
+      "Include vitamin B12 sources like meat, dairy, eggs.",
+      "Consider supplements if dietary intake is insufficient."
+    ],
+    "lifestyle": [
+      "Address alcohol use or malabsorption issues.",
+      "Monitor neurological symptoms.",
+      "Time medications to improve absorption if needed."
+    ],
+    "preventive": [
+      "Routine screening in high-risk groups.",
+      "Prompt supplementation with folate and B12.",
+      "Manage underlying gastrointestinal disorders."
+    ]
+  },
+  {
+    "label": "Hemolytic Anemia",
+    "diet": [
+      "Maintain a balanced diet with adequate folate.",
+      "Stay hydrated to reduce hemolysis complications.",
+      "Avoid triggers like certain medications or toxins."
+    ],
+    "lifestyle": [
+      "Manage infections promptly.",
+      "Avoid extreme temperatures or physical stressors.",
+      "Regular monitoring by hematologist."
+    ],
+    "preventive": [
+      "Identify and treat underlying cause.",
+      "Vaccination against encapsulated organisms if spleen removed.",
+      "Routine blood counts and hemolysis monitoring."
+    ]
+  },
+  {
+    "label": "Thalassemia Trait/Disease",
+    "diet": [
+      "Ensure adequate folate intake.",
+      "Avoid excess iron unless recommended.",
+      "Maintain balanced nutrition to support hematopoiesis."
+    ],
+    "lifestyle": [
+      "Regular medical follow-up for monitoring anemia.",
+      "Manage infections and complications early.",
+      "Avoid strenuous physical exertion if symptomatic."
+    ],
+    "preventive": [
+      "Genetic counseling for families.",
+      "Avoid iron overload with chelation therapy if necessary.",
+      "Routine specialist care including transfusion management."
+    ]
+  },
+  {
+    "label": "Polycythemia / Erythrocytosis",
+    "diet": [
+      "Maintain adequate hydration to prevent blood thickening.",
+      "Limit iron intake only if advised by a physician."
+    ],
+    "lifestyle": [
+      "Avoid smoking and high altitudes.",
+      "Regular exercise within tolerance levels.",
+      "Periodic phlebotomy as recommended."
+    ],
+    "preventive": [
+      "Regular blood counts monitoring.",
+      "Screen for underlying causes.",
+      "Follow physician’s management plan."
+    ]
+  },
+  {
+    "label": "Heart Failure",
+    "diet": [
+      "Limit sodium intake to reduce fluid retention.",
+      "Eat small, frequent meals with balanced nutrients.",
+      "Avoid caffeine and alcohol."
+    ],
+    "lifestyle": [
+      "Engage in light to moderate physical activity as tolerated.",
+      "Weight monitoring daily for fluid retention.",
+      "Stop smoking and limit alcohol."
+    ],
+    "preventive": [
+      "Adhere to prescribed medications.",
+      "Regular follow-up for symptom and fluid status.",
+      "Manage comorbidities like hypertension and diabetes."
+    ]
+  },
+  {
+    "label": "Acute Myocardial Infarction (probable)",
+    "diet": [
+      "Initiate a heart-healthy diet low in saturated fats and cholesterol.",
+      "Increase intake of fruits, vegetables, and whole grains."
+    ],
+    "lifestyle": [
+      "Cessation of smoking.",
+      "Gradual return to physical activity under supervision.",
+      "Stress management techniques."
+    ],
+    "preventive": [
+      "Immediate medical attention and adherence to treatment plan.",
+      "Medications to prevent clotting and manage risk factors.",
+      "Regular cardiac rehabilitation follow-up."
+    ]
+  },
+  {
+    "label": "Pulmonary Embolism / Deep Vein Thrombosis",
+    "diet": [
+      "Maintain balanced diet; avoid sudden large changes in vitamin K rich foods if on anticoagulants.",
+      "Stay hydrated."
+    ],
+    "lifestyle": [
+      "Encourage early mobilization and physical activity.",
+      "Avoid prolonged immobility during travel or hospitalization.",
+      "Wear compression stockings if recommended."
+    ],
+    "preventive": [
+      "Use of anticoagulants as prescribed.",
+      "Regular monitoring of coagulation parameters.",
+      "Avoid smoking and maintain healthy weight."
+    ]
+  },
+  {
+    "label": "Disseminated Intravascular Coagulation (DIC)",
+    "diet": [
+      "Follow hospital-based diet as per acute illness.",
+      "Maintain adequate calorie and protein intake."
+    ],
+    "lifestyle": [
+      "Strict bed rest during acute phase.",
+      "Monitor for bleeding or clotting complications closely."
+    ],
+    "preventive": [
+      "Treat underlying trigger (infection, trauma).",
+      "Close monitoring in ICU settings.",
+      "Manage coagulation abnormalities promptly."
+    ]
+  },
+  {
+    "label": "Sepsis / Severe Bacterial Infection",
+    "diet": [
+      "Provide supportive nutrition with adequate hydration.",
+      "Consider enteral or parenteral nutrition if indicated."
+    ],
+    "lifestyle": [
+      "Isolation and infection control measures.",
+      "Bed rest during acute illness."
+    ],
+    "preventive": [
+      "Prompt antibiotic therapy.",
+      "Early identification and treatment of infection source.",
+      "Follow vaccination guidelines to prevent infections."
+    ]
+  },
+  {
+    "label": "Bacterial Infection (suggestive)",
+    "diet": [
+      "Maintain hydration and balanced nutrition to support immune function."
+    ],
+    "lifestyle": [
+      "Rest as needed.",
+      "Avoid spreading infection (hygiene and isolation if required)."
+    ],
+    "preventive": [
+      "Complete prescribed antibiotic courses.",
+      "Vaccinations where applicable.",
+      "Regular health checkups."
+    ]
+  },
+  {
+    "label": "Systemic Lupus Erythematosus (SLE)",
+    "diet": [
+      "Balanced diet rich in antioxidants and omega-3 fatty acids.",
+      "Limit saturated fat and processed foods.",
+      "Maintain adequate calcium and vitamin D intake."
+    ],
+    "lifestyle": [
+      "Regular moderate exercise to maintain joint and heart health.",
+      "Stress management and adequate rest.",
+      "Avoid sun exposure or use sun protection due to photosensitivity."
+    ],
+    "preventive": [
+      "Routine monitoring for organ involvement.",
+      "Adherence to immunosuppressive therapies.",
+      "Vaccination according to guidelines."
+    ]
+  },
+  {
+    "label": "Rheumatoid Arthritis",
+    "diet": [
+      "Consume omega-3 rich foods like fish to reduce inflammation.",
+      "Include antioxidant-rich fruits and vegetables.",
+      "Limit processed foods and sugars."
+    ],
+    "lifestyle": [
+      "Engage in low-impact exercises such as swimming or walking.",
+      "Maintain a healthy weight.",
+      "Practice stress reduction techniques."
+    ],
+    "preventive": [
+      "Early diagnosis and medication adherence.",
+      "Regular monitoring of joint function.",
+      "Avoid smoking and occupational hazards."
+    ]
+  },
+  {
+    "label": "Complement Consumption / Immune Complex Disease",
+    "diet": [
+      "Maintain well-balanced nutrition to support immune health.",
+      "Avoid foods that may trigger immune reactions."
+    ],
+    "lifestyle": [
+      "Manage stress as it affects immune function.",
+      "Follow prescribed treatments consistently."
+    ],
+    "preventive": [
+      "Regular monitoring of immune markers.",
+      "Prompt treatment of infections or triggers."
+    ]
+  },
+  {
+    "label": "Wilson's Disease",
+    "diet": [
+      "Avoid copper-rich foods like shellfish, nuts, chocolate, mushrooms.",
+      "Maintain a balanced and nutritious diet."
+    ],
+    "lifestyle": [
+      "Adhere to chelation therapy as prescribed.",
+      "Regular monitoring of liver and neurological status."
+    ],
+    "preventive": [
+      "Genetic counseling for family members.",
+      "Early screening in high-risk individuals."
+    ]
+  },
+  {
+    "label": "Copper Deficiency (e.g., Menkes, malabsorption)",
+    "diet": [
+      "Increase copper rich foods such as meat, shellfish, nuts, seeds.",
+      "Consider supplementation under medical supervision."
+    ],
+    "lifestyle": [
+      "Manage underlying malabsorption conditions.",
+      "Regular follow-up with healthcare provider."
+    ],
+    "preventive": [
+      "Early diagnosis through clinical and lab evaluation.",
+      "Address secondary causes promptly."
+    ]
+  },
+  {
+    "label": "Lead Poisoning",
+    "diet": [
+      "Adequate calcium, iron, and vitamin C intake to reduce lead absorption.",
+      "Balanced diet to support detoxification."
+    ],
+    "lifestyle": [
+      "Avoid exposure to lead sources (old paint, contaminated water).",
+      "Regular medical follow-up."
+    ],
+    "preventive": [
+      "Screening in high-risk populations.",
+      "Environmental remediation."
+    ]
+  },
+  {
+    "label": "Rhabdomyolysis",
+    "diet": [
+      "Maintain hydration to flush myoglobin.",
+      "Balanced diet to support muscle recovery."
+    ],
+    "lifestyle": [
+      "Avoid excessive physical exertion and trauma.",
+      "Seek timely treatment of muscle injuries."
+    ],
+    "preventive": [
+      "Recognize early symptoms (muscle pain, weakness).",
+      "Monitor kidney function."
+    ]
+  },
+  {
+    "label": "Chronic Liver Disease / Cirrhosis (suggestive)",
+    "diet": [
+      "Low sodium diet to prevent fluid retention.",
+      "Adequate protein intake unless contraindicated.",
+      "Avoid alcohol completely."
+    ],
+    "lifestyle": [
+      "Avoid hepatotoxic drugs.",
+      "Vaccination for hepatitis viruses.",
+      "Regular medical monitoring."
+    ],
+    "preventive": [
+      "Early detection of liver disease.",
+      "Manage comorbidities like diabetes and obesity."
+    ]
+  },
+  {
+    "label": "Hypertriglyceridemia",
+    "diet": [
+      "Reduce intake of refined carbohydrates and sugars.",
+      "Increase omega-3 intake from fish or supplements.",
+      "Limit alcohol consumption."
+    ],
+    "lifestyle": [
+      "Engage in regular aerobic exercise.",
+      "Achieve and maintain healthy weight."
+    ],
+    "preventive": [
+      "Control associated conditions such as diabetes.",
+      "Regular monitoring of lipid profile."
+    ]
+  },
+  {
+    "label": "Elevated LDL / Hypercholesterolemia",
+    "diet": [
+      "Reduce saturated and trans fats.",
+      "Increase dietary fiber.",
+      "Include plant sterols and stanols."
+    ],
+    "lifestyle": [
+      "Regular physical activity.",
+      "Weight management.",
+      "Smoking cessation."
+    ],
+    "preventive": [
+      "Lipid profile monitoring.",
+      "Medication adherence if prescribed."
+    ]
+  },
+  {
+    "label": "Hypoalbuminemia (suggestive)",
+    "diet": [
+      "Ensure adequate protein intake.",
+      "Consume nutrient-dense foods."
+    ],
+    "lifestyle": [
+      "Address underlying causes such as liver or kidney disease.",
+      "Manage fluid balance properly."
+    ],
+    "preventive": [
+      "Monitor serum albumin in at-risk patients.",
+      "Early intervention for malnutrition."
+    ]
+  },
+  {
+    "label": "Vitamin B6 Deficiency",
+    "diet": [
+      "Increase intake of poultry, fish, potatoes, and fortified cereals.",
+      "Supplement under medical guidance if needed."
+    ],
+    "lifestyle": [
+      "Manage malabsorption or medication causes.",
+      "Regular health check-ups."
+    ],
+    "preventive": [
+      "Early diagnosis via blood tests.",
+      "Correct underlying conditions."
+    ]
+  },
+  {
+    "label": "Folate Deficiency",
+    "diet": [
+      "Consume leafy green vegetables, citrus fruits, beans, and fortified grains.",
+      "Supplementation as advised."
+    ],
+    "lifestyle": [
+      "Address causes like alcohol use or malabsorption.",
+      "Routine prenatal care for women of childbearing age."
+    ],
+    "preventive": [
+      "Screening in high-risk groups.",
+      "Adequate dietary intake promotion."
+    ]
+  },
+  {
+    "label": "Hypercoagulable State / Thrombotic Disorder",
+    "diet": [
+      "Maintain a balanced diet with adequate hydration.",
+      "Limit foods affecting blood clotting (e.g., Vitamin K rich foods if on anticoagulants)."
+    ],
+    "lifestyle": [
+      "Stay physically active but avoid prolonged immobility.",
+      "Avoid smoking and manage body weight.",
+      "Wear compression stockings if prescribed."
+    ],
+    "preventive": [
+      "Adhere to prescribed anticoagulation therapy.",
+      "Regular follow-up and blood testing.",
+      "Avoid trauma or situations increasing clot risk."
+    ]
+  },
+  {
+    "label": "Nonspecific Inflammation / Acute Phase",
+    "diet": [
+      "Eat anti-inflammatory foods rich in omega-3 fatty acids.",
+      "Maintain hydration and balanced nutrition."
+    ],
+    "lifestyle": [
+      "Manage stress and get ample rest.",
+      "Follow medical advice to treat underlying cause."
+    ],
+    "preventive": [
+      "Regular health checks.",
+      "Prompt treatment of infections or injuries.",
+      "Avoid exposure to inflammatory triggers."
+    ]
+  },
+  {
+    "label": "Primary Hyperparathyroidism",
+    "diet": [
+      "Ensure adequate hydration.",
+      "Limit calcium and vitamin D supplementation only as advised.",
+      "Avoid high phosphate foods."
+    ],
+    "lifestyle": [
+      "Engage in weight-bearing exercises to strengthen bones.",
+      "Avoid smoking and limit alcohol."
+    ],
+    "preventive": [
+      "Routine calcium and PTH monitoring.",
+      "Bone density testing.",
+      "Early surgical consultation if indicated."
+    ]
+  },
+  {
+    "label": "Hypoparathyroidism",
+    "diet": [
+      "Adequate calcium and vitamin D intake as prescribed.",
+      "Avoid high phosphate foods."
+    ],
+    "lifestyle": [
+      "Regular exercise to maintain bone health.",
+      "Monitor for symptoms like muscle cramps."
+    ],
+    "preventive": [
+      "Calcium and vitamin D blood monitoring.",
+      "Adhere to medication regimen.",
+      "Regular medical follow-up."
+    ]
+  },
+  {
+    "label": "Hyperkalemia",
+    "diet": [
+      "Limit potassium-rich foods such as bananas, oranges, potatoes.",
+      "Avoid salt substitutes containing potassium."
+    ],
+    "lifestyle": [
+      "Avoid medications that raise potassium without medical supervision.",
+      "Stay hydrated but follow fluid restrictions if any."
+    ],
+    "preventive": [
+      "Regular potassium level monitoring.",
+      "Manage underlying renal or endocrine conditions.",
+      "Emergency treatment if severe."
+    ]
+  },
+  {
+    "label": "Hypokalemia",
+    "diet": [
+      "Increase intake of potassium-rich foods.",
+      "Include fruits like bananas, oranges, and vegetables."
+    ],
+    "lifestyle": [
+      "Avoid excessive use of diuretics unless prescribed.",
+      "Report symptoms such as muscle weakness promptly."
+    ],
+    "preventive": [
+      "Monitor potassium regularly, especially with diuretics.",
+      "Treat underlying causes like diarrhea or vomiting.",
+      "Adhere to supplementation plans."
+    ]
+  },
+  {
+    "label": "Hypernatremia",
+    "diet": [
+      "Maintain adequate free water intake.",
+      "Limit sodium intake if advised."
+    ],
+    "lifestyle": [
+      "Monitor fluid balance carefully.",
+      "Avoid dehydration in elderly or ill patients."
+    ],
+    "preventive": [
+      "Regular serum sodium monitoring.",
+      "Treat underlying conditions causing water loss.",
+      "Seek water balance management in hospital settings."
+    ]
+  },
+  {
+    "label": "Hyponatremia",
+    "diet": [
+      "Follow fluid restriction as prescribed.",
+      "Avoid hypotonic fluids if advised."
+    ],
+    "lifestyle": [
+      "Monitor fluid intake and output.",
+      "Report neurological symptoms promptly."
+    ],
+    "preventive": [
+      "Regular serum sodium level checks.",
+      "Address underlying causes like SIADH or diuretics.",
+      "Medication adjustments as necessary."
+    ]
+  },
+  {
+    "label": "Hepatic Encephalopathy",
+    "diet": [
+      "Limit dietary protein intake per medical advice.",
+      "Include complex carbohydrates and small frequent meals."
+    ],
+    "lifestyle": [
+      "Avoid alcohol completely.",
+      "Adhere to lactulose or rifaximin therapy.",
+      "Prevent constipation."
+    ],
+    "preventive": [
+      "Monitor ammonia and liver function regularly.",
+      "Early detection of cognitive changes.",
+      "Manage precipitating factors like infections or GI bleeding."
+    ]
+  },
+  {
+    "label": "Urea Cycle Disorder",
+    "diet": [
+      "Restrict protein intake carefully.",
+      "Ensure adequate caloric intake from carbohydrates and fats."
+    ],
+    "lifestyle": [
+      "Avoid catabolic states and prolonged fasting.",
+      "Monitor for neurological symptoms."
+    ],
+    "preventive": [
+      "Early diagnosis and emergency care plans.",
+      "Regular biochemical monitoring.",
+      "Genetic counseling."
+    ]
+  },
+  {
+    "label": "Nephrotic Syndrome",
+    "diet": [
+      "Limit sodium to reduce edema.",
+      "Maintain adequate protein intake.",
+      "Monitor fluid intake as advised."
+    ],
+    "lifestyle": [
+      "Avoid infections and promptly treat them.",
+      "Measure weight daily to assess fluid retention."
+    ],
+    "preventive": [
+      "Regular urine protein and kidney function tests.",
+      "Vaccinations to prevent infections.",
+      "Follow treatment for underlying causes."
+    ]
+  },
+  {
+    "label": "Syndrome of Inappropriate ADH Secretion",
+    "diet": [
+      "Follow fluid restriction.",
+      "Maintain balanced nutrition while restricting fluids."
+    ],
+    "lifestyle": [
+      "Monitor sodium levels frequently.",
+      "Avoid medications that worsen SIADH."
+    ],
+    "preventive": [
+      "Identify and treat underlying causes.",
+      "Regular lab monitoring.",
+      "Manage medications carefully."
+    ]
+  },
+  {
+    "label": "Diabetes Insipidus",
+    "diet": [
+      "Maintain adequate hydration.",
+      "Limit caffeine and alcohol."
+    ],
+    "lifestyle": [
+      "Adhere to prescribed desmopressin or other treatments.",
+      "Monitor urine output and symptoms."
+    ],
+    "preventive": [
+      "Early diagnosis and treatment.",
+      "Regular electrolyte monitoring.",
+      "Manage underlying causes."
+    ]
+  },
+  {
+    "label": "Renal Tubular Acidosis",
+    "diet": [
+      "Maintain a well-balanced diet including fruits and vegetables.",
+      "Alkali supplementation as prescribed."
+    ],
+    "lifestyle": [
+      "Regular monitoring of growth in children.",
+      "Manage electrolyte imbalances promptly."
+    ],
+    "preventive": [
+      "Early diagnosis and treatment.",
+      "Routine blood and urine tests.",
+      "Avoid nephrotoxic drugs."
+    ]
+  },
+  {
+    "label": "Urinary Tract Infection (alkaline urine, e.g., Proteus)",
+    "diet": [
+      "Drink plenty of fluids (at least 1.5 liters of water daily).",
+      "Consider cranberry supplements to help prevent bacterial adhesion.",
+      "Avoid bladder irritants like caffeine, alcohol, and acidic foods during infection."
+    ],
+    "lifestyle": [
+      "Maintain good personal hygiene; wipe front to back after bathroom use.",
+      "Urinate frequently and empty bladder fully.",
+      "Urinate soon after sexual intercourse to flush bacteria."
+    ],
+    "preventive": [
+      "Seek prompt treatment of infections with antibiotics as prescribed.",
+      "Undergo imaging if recurrent infections with alkaline urine to check for stones.",
+      "Avoid use of spermicides or diaphragms if prone to recurrent UTIs."
+    ]
+  },
+  {
+    "label": "Sjögren’s Syndrome",
+    "diet": [
+      "Stay hydrated to combat dry mouth and eyes.",
+      "Eat moist, soft foods to ease oral discomfort.",
+      "Avoid alcohol and caffeine which worsen dryness."
+    ],
+    "lifestyle": [
+      "Use saliva substitutes and regular dental care.",
+      "Protect eyes with artificial tears and sunglasses.",
+      "Manage fatigue with balanced rest and activity."
+    ],
+    "preventive": [
+      "Regular rheumatology follow-up for systemic management.",
+      "Screen for associated complications like lymphoma.",
+      "Vaccinations to prevent infections."
+    ]
+  },
+  {
+    "label": "Mixed Connective Tissue Disease",
+    "diet": [
+      "Balanced diet rich in antioxidants, fruits, and vegetables.",
+      "Avoid processed foods and alcohol in excess."
+    ],
+    "lifestyle": [
+      "Regular low-impact exercises.",
+      "Manage stress and fatigue.",
+      "Avoid smoking."
+    ],
+    "preventive": [
+      "Regular monitoring for organ involvement.",
+      "Follow immunosuppressive therapy as prescribed.",
+      "Routine screening for complications."
+    ]
+  },
+  {
+    "label": "Scleroderma",
+    "diet": [
+      "Eat soft, high-fiber foods to ease swallowing difficulties.",
+      "Limit salt intake to manage hypertension.",
+      "Avoid foods that worsen reflux."
+    ],
+    "lifestyle": [
+      "Protect skin and avoid cold exposure.",
+      "Regular gentle exercises to maintain joint mobility.",
+      "Manage GERD symptoms with lifestyle changes."
+    ],
+    "preventive": [
+      "Routine pulmonary function and cardiac monitoring.",
+      "Adhere to prescribed treatment and therapy.",
+      "Early management of complications."
+    ]
+  },
+  {
+    "label": "Dermatomyositis / Polymyositis",
+    "diet": [
+      "Nutritious diet to support muscle health.",
+      "Adequate protein intake.",
+      "Avoid foods causing inflammation if identified."
+    ],
+    "lifestyle": [
+      "Physical therapy to maintain muscle strength.",
+      "Protect skin from sun exposure.",
+      "Manage fatigue with rest and pacing activities."
+    ],
+    "preventive": [
+      "Regular follow-up with rheumatology.",
+      "Monitor for respiratory and cardiac issues.",
+      "Immunosuppressive therapy adherence."
+    ]
+  },
+  {
+    "label": "Hyperhomocysteinemia",
+    "diet": [
+      "Increase folate, vitamin B6, and B12 rich foods.",
+      "Limit foods high in methionine if advised."
+    ],
+    "lifestyle": [
+      "Regular exercise to improve cardiovascular health.",
+      "Avoid smoking."
+    ],
+    "preventive": [
+      "Regular homocysteine level monitoring.",
+      "Manage cardiovascular risk factors.",
+      "Supplement vitamins as prescribed."
+    ]
+  },
+  {
+    "label": "Vitamin B12 Deficiency",
+    "diet": [
+      "Consume animal products like meat, dairy, and eggs.",
+      "Consider B12 supplements if vegetarian or malabsorption present."
+    ],
+    "lifestyle": [
+      "Monitor neurological symptoms.",
+      "Manage underlying causes like pernicious anemia."
+    ],
+    "preventive": [
+      "Routine screening in at-risk populations.",
+      "Timely supplementation and follow-up."
+    ]
+  },
+  {
+    "label": "MTHFR Mutation Associated Disorder",
+    "diet": [
+      "Increase intake of folate-rich foods and vitamins B6 and B12.",
+      "Avoid excessive folic acid supplements unless prescribed."
+    ],
+    "lifestyle": [
+      "Manage cardiovascular risk factors.",
+      "Maintain healthy lifestyle with exercise."
+    ],
+    "preventive": [
+      "Genetic counseling.",
+      "Regular homocysteine and related lab monitoring."
+    ]
+  },
+  {
+    "label": "Insulinoma",
+    "diet": [
+      "Frequent small meals to prevent hypoglycemia.",
+      "Include complex carbohydrates and protein."
+    ],
+    "lifestyle": [
+      "Monitor blood glucose regularly.",
+      "Avoid fasting and strenuous exercise without glucose monitoring."
+    ],
+    "preventive": [
+      "Surgical evaluation as primary treatment.",
+      "Regular follow-up after treatment."
+    ]
+  },
+  {
+    "label": "Factitious Hypoglycemia",
+    "diet": [
+      "Regular balanced meals with controlled carbohydrates.",
+      "Avoid excessive sugar intake."
+    ],
+    "lifestyle": [
+      "Mental health support and counseling.",
+      "Close monitoring of blood glucose levels."
+    ],
+    "preventive": [
+      "Psychological assessment.",
+      "Supervised medical management."
+    ]
+  },
+  {
+    "label": "Severe Pneumonia",
+    "diet": [
+      "Adequate hydration and calorie intake.",
+      "Balanced diet with protein for recovery."
+    ],
+    "lifestyle": [
+      "Rest and avoid smoking.",
+      "Follow respiratory therapy as needed."
+    ],
+    "preventive": [
+      "Vaccination (pneumococcal, influenza).",
+      "Early treatment of respiratory infections."
+    ]
+  },
+  {
+    "label": "Meningitis",
+    "diet": [
+      "Maintain hydration and balanced nutrition.",
+      "Provide supportive care during illness."
+    ],
+    "lifestyle": [
+      "Rest during acute illness.",
+      "Supportive care in hospital as needed."
+    ],
+    "preventive": [
+      "Vaccinations (meningococcal, pneumococcal, Hib).",
+      "Avoiding contact with infected individuals."
+    ]
+  },
+  {
+    "label": "Septic Shock",
+    "diet": [
+      "Supportive nutrition tailored in ICU setting.",
+      "Maintain fluid balance."
+    ],
+    "lifestyle": [
+      "Intensive medical care and monitoring.",
+      "Manage underlying infection."
+    ],
+    "preventive": [
+      "Early recognition and treatment of sepsis.",
+      "Vaccination and infection control."
+    ]
+  },
+  {
+    "label": "Muscular Dystrophy",
+    "diet": [
+      "Balanced diet supporting muscle health.",
+      "Adequate vitamin D and calcium."
+    ],
+    "lifestyle": [
+      "Physical therapy and mobility support.",
+      "Avoid excessive fatigue."
+    ],
+    "preventive": [
+      "Genetic counseling.",
+      "Monitor respiratory and cardiac function."
+    ]
+  },
+  {
+    "label": "Polycythemia Vera",
+    "diet": [
+      "Maintain hydration.",
+      "Avoid iron supplements unless prescribed."
+    ],
+    "lifestyle": [
+      "Avoid smoking and manage cardiovascular risk.",
+      "Follow therapy including phlebotomy."
+    ],
+    "preventive": [
+      "Regular blood counts.",
+      "Monitor for complications such as thrombosis."
+    ]
+  },
+  {
+    "label": "Secondary Polycythemia",
+    "diet": [
+      "Hydration and balanced nutrition.",
+      "Avoid excess iron unless indicated."
+    ],
+    "lifestyle": [
+      "Address underlying causes such as hypoxia.",
+      "Smoking cessation."
+    ],
+    "preventive": [
+      "Treat contributing conditions.",
+      "Regular monitoring."
+    ]
+  },
+  {
+    "label": "Common Variable Immunodeficiency",
+    "diet": [
+      "Maintain a balanced and nutritious diet with a variety of fruits, vegetables, whole grains, lean protein, and healthy fats.",
+      "Avoid highly processed foods and maintain adequate hydration."
+    ],
+    "lifestyle": [
+      "Practice good hygiene including regular hand washing.",
+      "Get adequate restorative sleep (7-8 hours).",
+      "Engage in moderate exercise as tolerated.",
+      "Manage stress with meditation, yoga, or relaxation techniques.",
+      "Avoid smoking and limit alcohol intake."
+    ],
+    "preventive": [
+      "Stay connected with healthcare providers for immunoglobulin therapy and infection management.",
+      "Regular monitoring of immune status.",
+      "Avoid contact with people who are sick."
+    ]
+  },
+  {
+    "label": "Selective IgA Deficiency",
+    "diet": [
+      "Balanced diet supporting immune function.",
+      "Consider supplementation if other deficiencies present."
+    ],
+    "lifestyle": [
+      "Good personal hygiene to reduce infection risk.",
+      "Avoid smoking and limit alcohol."
+    ],
+    "preventive": [
+      "Regular health checkups.",
+      "Prompt treatment of infections.",
+      "Vaccinations as appropriate."
+    ]
+  },
+  {
+    "label": "Multiple Myeloma / Monoclonal Gammopathy",
+    "diet": [
+      "Maintain adequate protein and calorie intake.",
+      "Include calcium and vitamin D-rich foods for bone health."
+    ],
+    "lifestyle": [
+      "Manage fatigue with balanced activity and rest.",
+      "Prevent infections with good hygiene."
+    ],
+    "preventive": [
+      "Regular monitoring by hematology/oncology.",
+      "Bone density scans and management.",
+      "Vaccinations for infection prevention."
+    ]
+  },
+  {
+    "label": "Hereditary Angioedema",
+    "diet": [
+      "Avoid known triggers including certain foods or alcohol.",
+      "Balanced nutrition to support overall health."
+    ],
+    "lifestyle": [
+      "Manage stress and avoid trauma.",
+      "Carry emergency medications."
+    ],
+    "preventive": [
+      "Regular follow-up with immunologist.",
+      "Prompt treatment of attacks.",
+      "Avoid known precipitants."
+    ]
+  },
+  {
+    "label": "Polymyalgia Rheumatica",
+    "diet": [
+      "Anti-inflammatory diet rich in fruits, vegetables, and omega-3 fatty acids.",
+      "Limit processed foods and sugars."
+    ],
+    "lifestyle": [
+      "Light to moderate exercise to maintain mobility.",
+      "Manage fatigue with rest."
+    ],
+    "preventive": [
+      "Regular monitoring of inflammatory markers.",
+      "Adherence to corticosteroid therapy as prescribed.",
+      "Early detection of complications."
+    ]
+  },
+  {
+    "label": "Temporal Arteritis (Giant Cell Arteritis)",
+    "diet": [
+      "Balanced diet with adequate calcium and vitamin D.",
+      "Limit sodium if on steroids."
+    ],
+    "lifestyle": [
+      "Regular exercise within limits of physical ability.",
+      "Monitor for vision changes and report promptly."
+    ],
+    "preventive": [
+      "Long-term corticosteroid therapy monitoring.",
+      "Manage cardiovascular risk factors.",
+      "Regular physician follow-up."
+    ]
+  },
+  {
+    "label": "Lymphoma",
+    "diet": [
+      "Maintain balanced nutrition to support immune function.",
+      "Avoid foods that cause gastrointestinal discomfort."
+    ],
+    "lifestyle": [
+      "Manage energy levels with rest.",
+      "Prevent infections with precautions like hand hygiene."
+    ],
+    "preventive": [
+      "Regular oncologic management and follow-up.",
+      "Vaccinations as appropriate.",
+      "Supportive care."
+    ]
+  },
+  {
+    "label": "Leukemia",
+    "diet": [
+      "Nutrient-rich and calorie-dense to support treatment.",
+      "Manage side effects like nausea with small, frequent meals."
+    ],
+    "lifestyle": [
+      "Balance activity with rest.",
+      "Prevent infections with hygiene and avoiding sick contacts."
+    ],
+    "preventive": [
+      "Continuous medical monitoring.",
+      "Vaccination and infection prophylaxis.",
+      "Prompt treatment of complications."
+    ]
+  },
+  {
+    "label": "Testicular Cancer",
+    "diet": [
+      "Balanced, nutrient-dense diet during treatment.",
+      "Adequate hydration."
+    ],
+    "lifestyle": [
+      "Physical activity as tolerated.",
+      "Counseling and psychological support."
+    ],
+    "preventive": [
+      "Regular follow-up and screening.",
+      "Awareness of recurrence signs.",
+      "Adherence to therapeutic protocols."
+    ]
+  },
+  {
+    "label": "Selective IgM Deficiency",
+    "diet": [
+      "Balanced diet supporting immune health."
+    ],
+    "lifestyle": [
+      "Good hygiene and infection prevention practices."
+    ],
+    "preventive": [
+      "Regular health monitoring.",
+      "Prompt infection treatment."
+    ]
+  },
+  {
+    "label": "Hyper-IgM Syndrome",
+    "diet": [
+      "Nutritional support including adequate calories and protein."
+    ],
+    "lifestyle": [
+      "Avoid infection sources and maintain hygiene.",
+      "Regular medical care."
+    ],
+    "preventive": [
+      "Immunoglobulin replacement therapy.",
+      "Vaccination and prophylaxis.",
+      "Monitor for complications."
+    ]
+  },
+  {
+    "label": "Urea Cycle Disorder (unspecified)",
+    "diet": [
+      "Restrict protein intake as per medical advice.",
+      "Ensure adequate caloric intake from carbohydrates and fats."
+    ],
+    "lifestyle": [
+      "Avoid fasting and catabolic stress.",
+      "Regular monitoring."
+    ],
+    "preventive": [
+      "Early diagnosis and emergency plans.",
+      "Genetic counseling."
+    ]
+  },
+  {
+    "label": "Aceruloplasminemia",
+    "diet": [
+      "Avoid excess copper and iron intake.",
+      "Maintain balanced nutrition."
+    ],
+    "lifestyle": [
+      "Monitor neurological symptoms.",
+      "Adhere to treatment as prescribed."
+    ],
+    "preventive": [
+      "Genetic counseling.",
+      "Regular clinical and laboratory monitoring."
+    ]
+  },
+  {
+    "label": "Acute Phase / Inflammatory Condition",
+    "diet": [
+      "Anti-inflammatory diet rich in fruits, vegetables, and omega-3 fatty acids.",
+      "Maintain hydration."
+    ],
+    "lifestyle": [
+      "Manage stress and rest as needed.",
+      "Follow treatment plans for underlying cause."
+    ],
+    "preventive": [
+      "Early identification and management of inflammation.",
+      "Regular monitoring."
+    ]
+  },
+  {
+    "label": "Nephrogenic Diabetes Insipidus",
+    "diet": [
+      "Maintain adequate hydration.",
+      "Avoid excessive salt intake."
+    ],
+    "lifestyle": [
+      "Adhere to treatment regimens.",
+      "Monitor fluid balance."
+    ],
+    "preventive": [
+      "Regular kidney function tests.",
+      "Manage underlying conditions."
+    ]
+  },
+  {
+    "label": "Dehydration / Volume Loss",
+    "diet": [
+      "Replenish fluids and electrolytes promptly.",
+      "Consume balanced nutrition to support recovery."
+    ],
+    "lifestyle": [
+      "Monitor for symptoms of hypovolemia.",
+      "Avoid strenuous activities until hydrated."
+    ],
+    "preventive": [
+      "Avoid excessive heat exposure.",
+      "Manage underlying illness or causes."
+    ]
+  },
+  {
+    "label": "Heart Failure (concentrated urine)",
+    "diet": [
+      "Restrict sodium and fluid intake as advised.",
+      "Balanced diet for overall health."
+    ],
+    "lifestyle": [
+      "Monitor daily weight and symptoms of fluid overload.",
+      "Engage in light physical activity as tolerated."
+    ],
+    "preventive": [
+      "Adhere to medication regimen.",
+      "Regular cardiac monitoring.",
+      "Manage comorbidities."
+    ]
+  },
+  {
+    "label": "Hepatorenal Syndrome",
+    "diet": [
+      "Limit sodium and fluid intake.",
+      "Adequate nutritional support."
+    ],
+    "lifestyle": [
+      "Avoid nephrotoxic medications.",
+      "Monitor kidney and liver function."
+    ],
+    "preventive": [
+      "Manage underlying liver disease aggressively.",
+      "Early detection of renal impairment."
+    ]
+  },
+  {
+    "label": "Protein-losing Enteropathy / Malabsorption",
+    "diet": [
+      "High-protein diet to compensate for losses.",
+      "Avoid irritant foods and allergens.",
+      "Supplement vitamins and minerals as needed."
+    ],
+    "lifestyle": [
+      "Manage underlying GI disorders.",
+      "Monitor for symptoms of malnutrition."
+    ],
+    "preventive": [
+      "Early diagnosis and treatment.",
+      "Close follow-up with gastroenterology."
+    ]
+  }
+]
+

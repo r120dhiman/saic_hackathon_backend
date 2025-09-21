@@ -1,6 +1,7 @@
 import fs from 'fs';
 import csv from 'csv-parser';
 const diseasesJson = JSON.parse(fs.readFileSync('./Info/disease.json', 'utf8'));
+const dietJson = JSON.parse(fs.readFileSync('./Info/diest.json', 'utf8'));
 
 let parameterJson = null;
 
@@ -118,28 +119,29 @@ function calculator(possibleDiseases){
     return diseaseScore;
 }
 
-// Usage example:
+function insight(diseaseScore){
+    const diet=[];
+    const lifestyle=[];
+    const precaution=[];
+    diseaseScore.forEach(disease => {
+       const matchedDiet = dietJson.find(d => d.label === disease.label);
+if (matchedDiet) {
+  diet.push(...matchedDiet.diet);
+  lifestyle.push(...matchedDiet.lifestyle);
+  precaution.push(...matchedDiet.preventive);
+}
+}
+);
+    return {diet: [...new Set(diet)], lifestyle: [...new Set(lifestyle)], precaution: [...new Set(precaution)]};}
 
 export function diseasePredictor(age,gender, labData){
 const userLabData = labData;
   const ageGroup = age<18?'child':'adult';;
   const possibleDiseases = getAllPossibleDiseases(userLabData, ageGroup, gender, diseasesJson);
   const diseaseScore=calculator(possibleDiseases);
-  return diseaseScore;
+  diseaseScore.sort((a, b) => b.scoring - a.scoring);
+  diseaseScore.splice(5); 
+  const insights=insight(diseaseScore);
+  return {  diseaseScore, insights};
 } 
 
-// module.exports={diseasePredictor};
-
-// (async () => {
-//   await loadParametersFromCsv('./Info/max_min.csv'); // Path to your CSV file
-//   const diseasesJson = require('./disease.json');
-//   const userLabData = { "Glucose": 147, "HbA1c": 7.5 ,"C-peptide":0.1};
-//   const ageGroup = 'adult';
-//   const gender = 'male';
-
-//   const possibleDiseases = getAllPossibleDiseases(userLabData, ageGroup, gender, diseasesJson);
-  
-//  
-//   console.log(diseaseScore);
-// //   console.log(possibleDiseases);
-// })();
