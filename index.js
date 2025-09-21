@@ -10,6 +10,7 @@ import authRoutes from "./routes/auth.js"
 import reportRoutes from "./routes/reports.js"
 import userRoutes from "./routes/users.js"
 import uploadRoutes from "./routes/uploads.js"
+import dahsboardRoutes from "./routes/dashboard.js"
 
 
 const app = express()
@@ -47,6 +48,7 @@ app.use("/auth", authRoutes)
 app.use("/api/reports", reportRoutes)
 app.use("/api/users", userRoutes)
 app.use("/api/uploads", uploadRoutes)
+app.use("/api/dashboard",dahsboardRoutes);
 
 // Health check endpoint
 app.get("/health", (req, res) => {
