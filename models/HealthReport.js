@@ -1,83 +1,33 @@
-import mongoose from "mongoose"
+import mongoose from "mongoose";
 
-const healthReportSchema = new mongoose.Schema(
+const simplifiedHealthReportSchema = new mongoose.Schema(
   {
     userId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
       required: true,
     },
-    reportDate: {
+    date: {
       type: Date,
       required: true,
     },
-    sourceFileName: {
-      type: String,
+    analysis: {
+      type: Object,
       required: true,
     },
-    sourceFormat: {
-      type: String,
-      enum: ["PDF", "CSV", "JSON"],
+    labData: {
+      type: Object,
       required: true,
     },
-    standardizedResults: [
-      {
-        biomarker: {
-          type: String,
-          required: true,
-        },
-        value: {
-          type: Number,
-          required: true,
-        },
-        unit: {
-          type: String,
-          required: true,
-        },
-        referenceRange: {
-          type: String,
-          required: true,
-        },
-      },
-    ],
-    analysis: [
-      {
-        type: {
-          type: String,
-          required: true,
-        },
-        interpretation: {
-          type: String,
-          required: true,
-        },
-        recommendation: {
-          type: String,
-          required: true,
-        },
-        severity: {
-          type: String,
-          enum: ["Normal", "Borderline", "High", "Low", "Critical"],
-          default: "Normal",
-        },
-      },
-    ],
-    userNotes: [
-      {
-        date: {
-          type: Date,
-          default: Date.now,
-        },
-        note: String,
-        symptom: String,
-      },
-    ],
+    diseases: {
+      type: Object,
+    }
   },
   {
-    timestamps: true,
-  },
-)
+    timestamps: true, 
+  }
+);
 
-// Index for efficient querying
-healthReportSchema.index({ userId: 1, reportDate: -1 })
+// simplifiedHealthReportSchema.index({ userId: 1, date: -1 });
 
-export default mongoose.model("HealthReport", healthReportSchema)
+export default mongoose.model("SimplifiedHealthReport", simplifiedHealthReportSchema);

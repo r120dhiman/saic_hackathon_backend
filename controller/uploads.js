@@ -2,6 +2,8 @@ import { diseasePredictor } from "../Info/app.js";
 import multer from "multer";
 import csv from "csv-parser";
 import fs from "fs";
+import simplifiedHealthReportSchema from "../models/HealthReport.js";
+
 
 // Configure multer for CSV uploads
 const storage = multer.diskStorage({
@@ -32,6 +34,13 @@ export const predict = async (req, res) => {
   try {
     const { age, gender, labData } = req.body;
     const info = await diseasePredictor(age, gender, labData);
+    await simplifiedHealthReportSchema.create({
+      userId: req.params.id,
+      date: new Date(),
+      analysis: info.insights,
+      diseases: info.diseaseScore,
+      labData: labData,
+    });
     res.status(200).json({ message: "Disease prediction successful", data: info });
   } catch (error) {
     console.error("Prediction error:", error);
@@ -44,8 +53,9 @@ export const predictFromCSV = async (req, res) => {
     if (!req.file) {
       return res.status(400).json({ error: "No CSV file uploaded" });
     }
-
-    const { age, gender } = req.body;
+    console.log(body);
+    const age=22;
+    const gender='male';
     const labData = await parseCSVFile(req.file.path);
     
     // Clean up uploaded file

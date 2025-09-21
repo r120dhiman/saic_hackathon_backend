@@ -7,7 +7,7 @@ router.get("/", (req, res) => {
   res.send("This is upload route");
 });
 
-router.post("/", predict);
+router.post("/:id", predict);
 
 router.post("/csv", upload.single("csvFile"), predictFromCSV);
 
