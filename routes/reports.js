@@ -25,11 +25,16 @@ const upload = multer({
     fileSize: 10 * 1024 * 1024, // 10MB limit
   },
   fileFilter: (req, file, cb) => {
-    const allowedTypes = ["application/pdf", "text/csv", "application/json"]
+    const allowedTypes = [
+      "text/csv",
+      "application/json",
+      "application/vnd.ms-excel",
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    ]
     if (allowedTypes.includes(file.mimetype)) {
       cb(null, true)
     } else {
-      cb(new Error("Invalid file type. Only PDF, CSV, and JSON files are allowed."))
+      cb(new Error("Invalid file type. Only CSV, Excel (.xlsx, .xls), and JSON files are allowed."))
     }
   },
 })
@@ -169,12 +174,13 @@ router.post("/:id/notes", requireAuth, async (req, res) => {
 // Helper functions
 function getFileFormat(mimetype) {
   switch (mimetype) {
-    case "application/pdf":
-      return "PDF"
     case "text/csv":
       return "CSV"
     case "application/json":
       return "JSON"
+    case "application/vnd.ms-excel":
+    case "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet":
+      return "EXCEL"
     default:
       return "UNKNOWN"
   }

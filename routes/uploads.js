@@ -1,11 +1,14 @@
-import {Router} from "express"
-import { predict } from "../controller/uploads.js";
+import { Router } from "express";
+import { predict, predictFromCSV, upload } from "../controller/uploads.js";
 
-const router=Router();
+const router = Router();
 
-router.get("/",(req,res)=>{
-    res.send("This is upload route");
-})
-router.post("/",predict)
+router.get("/", (req, res) => {
+  res.send("This is upload route");
+});
 
-export default router
+router.post("/", predict);
+
+router.post("/csv", upload.single("csvFile"), predictFromCSV);
+
+export default router;

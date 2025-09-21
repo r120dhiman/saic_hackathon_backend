@@ -1,5 +1,6 @@
 import fs from "fs/promises"
 import { parse } from "csv-parse/sync"
+import xlsx from "xlsx"
 
 export async function parseHealthReport(file) {
   const filePath = file.path
@@ -8,14 +9,15 @@ export async function parseHealthReport(file) {
   let parsedData
 
   switch (file.mimetype) {
-    case "application/pdf":
-      parsedData = await parsePDF(fileBuffer)
-      break
     case "text/csv":
       parsedData = await parseCSV(fileBuffer)
       break
     case "application/json":
       parsedData = await parseJSON(fileBuffer)
+      break
+    case "application/vnd.ms-excel":
+    case "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet":
+      parsedData = await parseExcel(fileBuffer)
       break
     default:
       throw new Error("Unsupported file format")
@@ -103,6 +105,24 @@ async function parseJSON(buffer) {
   }
 
   throw new Error("Invalid JSON structure")
+}
+
+async function parseExcel(buffer) {
+  const workbook = xlsx.read(buffer, { type: "buffer" })
+  const firstSheetName = workbook.SheetNames[0]
+  const worksheet = workbook.Sheets[firstSheetName]
+  const rows = xlsx.utils.sheet_to_json(worksheet, { defval: "" })
+
+  const biomarkers = rows
+    .map((row) => ({
+      name: row.biomarker || row.Biomarker || row.test_name || row.Test_Name || row.name,
+      value: Number.parseFloat(row.value || row.Value || row.result || row.Result),
+      unit: row.unit || row.Unit || row.units || row.Units || "",
+      referenceRange: row.reference_range || row.Reference_Range || row.normal_range || row.Normal_Range || "",
+    }))
+    .filter((r) => r.name && !Number.isNaN(r.value))
+
+  return { biomarkers }
 }
 
 function standardizeData(parsedData) {
