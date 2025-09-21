@@ -3,13 +3,33 @@ import passport from "passport"
 
 const router = express.Router()
 
-// Google OAuth routes
-router.get("/google", passport.authenticate("google", { scope: ["profile", "email"] }))
+// Check if Google OAuth is configured
+const isGoogleOAuthConfigured = process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET
 
-router.get("/google/callback", passport.authenticate("google", { failureRedirect: "/login" }), (req, res) => {
-  // Successful authentication, redirect to frontend
-  res.redirect(process.env.CLIENT_URL || "http://localhost:5173/dashboard")
-})
+// Google OAuth routes
+if (isGoogleOAuthConfigured) {
+  router.get("/google", passport.authenticate("google", { scope: ["profile", "email"] }))
+
+  router.get("/google/callback", passport.authenticate("google", { failureRedirect: "/login" }), (req, res) => {
+    // Successful authentication, redirect to frontend
+    res.redirect(process.env.CLIENT_URL || "http://localhost:5173/dashboard")
+  })
+} else {
+  // Fallback routes when Google OAuth is not configured
+  router.get("/google", (req, res) => {
+    res.status(503).json({ 
+      error: "Google OAuth not configured", 
+      message: "Please set GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET environment variables" 
+    })
+  })
+
+  router.get("/google/callback", (req, res) => {
+    res.status(503).json({ 
+      error: "Google OAuth not configured", 
+      message: "Please set GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET environment variables" 
+    })
+  })
+}
 
 // Logout route
 router.post("/logout", (req, res) => {
