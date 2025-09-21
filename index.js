@@ -13,9 +13,7 @@ import uploadRoutes from "./routes/uploads.js"
 dotenv.config()
 
 const app = express()
-const PORT = process.env.PORT || 5000
-
-// Middleware
+const PORT = process.env.PORT || 3000
 app.use(
   cors({
     origin: process.env.CLIENT_URL || "http://localhost:5173",
@@ -25,8 +23,6 @@ app.use(
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
-
-// Session configuration
 app.use(
   session({
     secret: process.env.SESSION_SECRET || "health-report-secret",
@@ -34,12 +30,11 @@ app.use(
     saveUninitialized: false,
     cookie: {
       secure: process.env.NODE_ENV === "production",
-      maxAge: 24 * 60 * 60 * 1000, // 24 hours
+      maxAge: 24 * 60 * 60 * 1000,
     },
   }),
 )
 
-// Passport middleware
 // app.use(passport.initialize())
 // app.use(passport.session())
 
@@ -48,13 +43,10 @@ app.use("/auth", authRoutes)
 app.use("/api/reports", reportRoutes)
 app.use("/api/users", userRoutes)
 app.use("/api/uploads",uploadRoutes)
-
-// Health check endpoint
 app.get("/health", (req, res) => {
   res.json({ status: "OK", message: "Health Report API is running" })
 })
 
-// MongoDB connection
 mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => {
